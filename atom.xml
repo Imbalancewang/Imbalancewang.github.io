@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-04T04:47:49.000Z</updated>
+  <updated>2017-05-04T04:50:53.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2017/05/02/Markdown(II)/"/>
     <id>http://yoursite.com/2017/05/02/Markdown(II)/</id>
     <published>2017-05-02T14:20:49.000Z</published>
-    <updated>2017-05-04T04:47:49.000Z</updated>
+    <updated>2017-05-04T04:50:53.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Something-about-Markdown-II"><a href="#Something-about-Markdown-II" class="headerlink" title="Something about Markdown(II)"></a>Something about Markdown(II)</h1><hr>
 <h2 id="II-The-grammar-of-Markdown"><a href="#II-The-grammar-of-Markdown" class="headerlink" title="II. The grammar of Markdown"></a>II. The grammar of Markdown</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effeaclhiyj20eh09cwez.jpg" alt=""><br>There are six level heading in Markdown, and every heading needs one space before the title. The picture above clearly show the grammar of the title.</p>
 <h3 id="List"><a href="#List" class="headerlink" title="List"></a>List</h3><p>In Markdown, the display of list just needs “-“ or “*”, which is formed of unordered list. As for the ordered list, you just need add “1.”, “2.”,and “3.” before words. The picture under the passage clearly show it.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effew5aftij20d80bz3yw.jpg" alt=""> </p>
@@ -33,7 +33,7 @@
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
-      <category term="May,2017" scheme="http://yoursite.com/categories/May-2017/"/>
+      <category term="May 2017" scheme="http://yoursite.com/categories/May-2017/"/>
     
   </entry>
   
