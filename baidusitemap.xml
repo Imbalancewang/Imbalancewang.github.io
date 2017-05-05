@@ -3,6 +3,21 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2017/04/27/hello-world/</loc>
+    <lastmod>2017-05-05T17:08:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-04-27T13:37:02.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://yoursite.com/2017/05/05/Something%20about%20Markdown(III)/</loc>
@@ -86,19 +101,4 @@
     
     
     
-    
-  <url>
-    <loc>http://yoursite.com/2017/04/27/hello-world/</loc>
-    <lastmod>2017-04-29T13:57:25.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-04-27T13:37:02.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
