@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-04T04:50:53.000Z</updated>
+  <updated>2017-05-05T05:46:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Markdown(III)]]></title>
+    <link href="http://yoursite.com/2017/05/05/Something%20about%20Markdown(III)/"/>
+    <id>http://yoursite.com/2017/05/05/Something about Markdown(III)/</id>
+    <published>2017-05-05T04:55:09.000Z</published>
+    <updated>2017-05-05T05:46:08.000Z</updated>
+    <content type="html"><![CDATA[Something about Markdown(III) II. The grammar of MarkdownTableThe grammar of tables is a little bit complex. You can clearly see how does it work below. Code BoxIf you are a programmar, the code box which you want to put into you personal website is really important. The picture below clearly show it. The Cut-Off LineThe cut-off line just needs “*“. III. The feel of MarkdownThe grammar of Markdown is not only these, there is more interesting thing for you to explore. In my opinion, the Markdown is an amazing language and helps me a lot especially in building my own website. I will practice more so that I can have a better command of Markdown and make much progress.]]></content>
+    <summary type="html">
+    <![CDATA[S]]>
+    </summary>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+      <category term="May 2017" scheme="http://yoursite.com/categories/May-2017/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Markdown(II)]]></title>
     <link href="http://yoursite.com/2017/05/02/Markdown(II)/"/>
     <id>http://yoursite.com/2017/05/02/Markdown(II)/</id>
     <published>2017-05-02T14:20:49.000Z</published>
-    <updated>2017-05-04T04:50:53.000Z</updated>
+    <updated>2017-05-05T05:19:04.000Z</updated>
     <content type="html"><![CDATA[Something about Markdown(II) II. The grammar of MarkdownTitleThere are six level heading in Markdown, and every heading needs one space before the title. The picture above clearly show the grammar of the title. ListIn Markdown, the display of list just needs “-“ or “*”, which is formed of unordered list. As for the ordered list, you just need add “1.”, “2.”,and “3.” before words. The picture under the passage clearly show it. QuoteIf you want yo quote something to your essay, you just need to insert “&gt;” before the word. Picture and LinkThe grammar of inserting picture and link is similar. The difference between them is “!”.By the way, I use this website to store my pictures. Bold and ItalicThe grammar of bold and italic is simple. The picture under the passage clearly show it.]]></content>
     <summary type="html">
     <![CDATA[Some]]>
@@ -36,7 +53,7 @@
     <link href="http://yoursite.com/2017/05/01/Markdown(I)/"/>
     <id>http://yoursite.com/2017/05/01/Markdown(I)/</id>
     <published>2017-05-01T05:49:57.000Z</published>
-    <updated>2017-05-03T14:12:32.000Z</updated>
+    <updated>2017-05-05T05:17:03.000Z</updated>
     <content type="html"><![CDATA[Something about Markdown(I) Introduction Markdown is a light weight language, which has many merits. If you want to learn about more details, please click here.I will briefly introuduce the grammar of this language and my feel. I.About Markdown We can learn from the introduction that the Markdown is a light weight language. This language focuses on the simple grammar instead of the complex composing, which makes us concentrate on writting itself rather than optimizing the structure. What’s more, many editors and websites support this language, such as sublime ,jianshu and so on. Last but not least, when you finish the task with Markdown, the format of exportation could be varied. The official document of Markdown You can refer to more information with the below websites. http://markdown-here.com/ http://daringfireball.net/projects/markdown/syntax http://wowubuntu.com/markdown/#list The merits of Markdown Focus on your content instead of composing. Easily export files with the format of HTML, PDF and md. Have a simple grammar and easy to learn. The tool of MarkdownI strongly suggest Mou and Macdown, if you are using the Mac. And also, MarkdownPad and MarkPad are very suuitable for Windows.]]></content>
     <summary type="html">
     <![CDATA[Somethi]]>

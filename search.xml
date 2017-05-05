@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown(III)]]></title>
+    <url>%2F2017%2F05%2F05%2FSomething%20about%20Markdown(III)%2F</url>
+    <content type="text"><![CDATA[Something about Markdown(III) II. The grammar of MarkdownTableThe grammar of tables is a little bit complex. You can clearly see how does it work below. Code BoxIf you are a programmar, the code box which you want to put into you personal website is really important. The picture below clearly show it. The Cut-Off LineThe cut-off line just needs “*“. III. The feel of MarkdownThe grammar of Markdown is not only these, there is more interesting thing for you to explore. In my opinion, the Markdown is an amazing language and helps me a lot especially in building my own website. I will practice more so that I can have a better command of Markdown and make much progress.]]></content>
+      <categories>
+        <category>May 2017</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Markdown(II)]]></title>
     <url>%2F2017%2F05%2F02%2FMarkdown(II)%2F</url>
     <content type="text"><![CDATA[Something about Markdown(II) II. The grammar of MarkdownTitleThere are six level heading in Markdown, and every heading needs one space before the title. The picture above clearly show the grammar of the title. ListIn Markdown, the display of list just needs “-“ or “*”, which is formed of unordered list. As for the ordered list, you just need add “1.”, “2.”,and “3.” before words. The picture under the passage clearly show it. QuoteIf you want yo quote something to your essay, you just need to insert “&gt;” before the word. Picture and LinkThe grammar of inserting picture and link is similar. The difference between them is “!”.By the way, I use this website to store my pictures. Bold and ItalicThe grammar of bold and italic is simple. The picture under the passage clearly show it.]]></content>
