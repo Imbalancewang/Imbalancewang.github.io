@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2017-05-05T08:53:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/05/05/Something%20about%20Markdown(III)/</loc>
     
     <lastmod>2017-05-05T05:46:08.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/2017/05/01/Markdown(I)/</loc>
     
     <lastmod>2017-05-05T05:17:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2017-05-04T02:50:50.000Z</lastmod>
     
   </url>
   
