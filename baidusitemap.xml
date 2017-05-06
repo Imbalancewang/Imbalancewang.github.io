@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/05/06/PSO%20Algorithm/</loc>
+    <lastmod>2017-05-06T14:38:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>PSO  Algorithm</title>
+        <pubTime>2017-05-06T14:38:09.000Z</pubTime>
+        
+        <tag>Matlab</tag>
+         
+         
+           
+             
+              <breadCrumb title="May 2017" url="http://yoursite.com/categories/May-2017/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/04/27/hello-world/</loc>
-    <lastmod>2017-05-05T17:08:38.000Z</lastmod>
+    <lastmod>2017-05-05T17:09:53.000Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
@@ -20,7 +40,7 @@
     
     
   <url>
-    <loc>http://yoursite.com/2017/05/05/Something%20about%20Markdown(III)/</loc>
+    <loc>http://yoursite.com/2017/05/05/Markdown(III)/</loc>
     <lastmod>2017-05-05T05:46:08.000Z</lastmod>
     <data>
         <display>
