@@ -99,7 +99,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/05/06/PSO Algorithm/index.html">
 <meta property="og:site_name" content="Matthew">
 <meta property="og:description" content="PSO AlgorithmQuote  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, insp">
-<meta property="og:updated_time" content="2017-05-06T14:38:09.000Z">
+<meta property="og:updated_time" content="2017-05-06T14:54:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PSO  Algorithm">
 <meta name="twitter:description" content="PSO AlgorithmQuote  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, insp">
@@ -243,6 +243,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            Commonweal 404
           </a>
         </li>
       
@@ -411,9 +421,10 @@
 </li>
 <li><p>When finding these two optimal values, the particle updates its speed and new position according to the following formula:</p>
 </li>
+<li><span>$V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$</span><!-- Has MathJax --></li>
+<li><span>$present=present+V$</span><!-- Has MathJax -->
+</li>
 </ul>
-<span>$V=\omega *V+C1*rand()*(pbest-present)+C2*rand()*(gbest-present)$</span><!-- Has MathJax -->
-<span>$present=present+V$</span><!-- Has MathJax -->
 <p>In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one.</p>
 <h2 id="Parameter-Setting"><a href="#Parameter-Setting" class="headerlink" title="Parameter Setting"></a>Parameter Setting</h2><ul>
 <li>The number of particle generally take 20 to 40. In fact, 10 particles can get good results.</li>
@@ -437,6 +448,27 @@
     <div>
       
         
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>Thank you!</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://operts5oh.bkt.clouddn.com/WechatIMG2.jpeg" alt="Matthew WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://operts5oh.bkt.clouddn.com/WechatIMG1.jpeg" alt="Matthew Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
     </div>
@@ -599,6 +631,20 @@
 
         
         
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://github.com/Imbalancewang" title="Title" target="_blank">Title</a>
+                </li>
+              
+            </ul>
+          </div>
+        
 
         
 
@@ -683,6 +729,8 @@
   
 
 
+  
+
 
 
 
@@ -710,6 +758,9 @@
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
