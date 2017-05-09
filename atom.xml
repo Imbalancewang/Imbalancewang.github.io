@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-06T14:54:36.000Z</updated>
+  <updated>2017-05-09T15:45:27.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Kmeans]]></title>
+    <link href="http://yoursite.com/2017/05/09/Kmeans%20Algorithm/"/>
+    <id>http://yoursite.com/2017/05/09/Kmeans Algorithm/</id>
+    <published>2017-05-09T14:45:07.000Z</published>
+    <updated>2017-05-09T15:45:27.000Z</updated>
+    <content type="html"><![CDATA[Kmeans AlgorithmBasic InformationK-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarity is. It is considered that the clusters are made up of objects which are close to each other, so the compact and independent clusters are chosen as the final target. The selection of K initial cluster centers has a great influence on the clustering results, because the first step of the algorithm is to select any k objects randomly as the center of the initial clustering, and represent a cluster. In each iteration of the algorithm, each object remaining in the data set is re assigned to the nearest cluster based on the distance from each cluster center. When all data objects are examined, an iterative operation is completed, and a new cluster center is calculated. If the value of J does not change before and after an iteration, the algorithm is proved to be convergent. Algorithm ProcessInput: The numbers of clusters k, and the database containing N data objects. Ouput: K clustering with minimum variance criterion. (1) K objects are selected as initial cluster centers from N data objects. (2) According to the mean (central object) of each cluster, calculate the distances between each object and the central object. And also, on the basis of minimum distance, the corresponding objects are divided. (3) Recalculate the value of each (with change) clustering (center object). (4) Cycle (2) to (3) until each cluster does not change. Algorithm Advantages The algorithm is simple. It is efficient and scalable for large data sets. Algiruthm Disadvantages In the K-means algorithm K is given in advance, the selection of this K value is very difficult to estimate. In the K-means algorithm, it is necessary to determine an initial partition according to the initial cluster center, and then optimize the initial partition. The selection of the initial cluster center has a great impact on the clustering results. Once the initial value is not good, it may not be able to get effective clustering results, which has become a major problem of the K-means algorithm. From the framework of K-means algorithm can be seen, the algorithm needs to constantly adjust constantly calculating the sample classification, a new clustering center adjusted, so when there is a very large amount of data, the algorithm time overhead is very large. Matlab codehere.]]></content>
+    <summary type="html">
+    <![CDATA[Kmeans Algorithm]]>
+    </summary>
+    
+      <category term="Matlab" scheme="http://yoursite.com/tags/Matlab/"/>
+    
+      <category term="May 2017" scheme="http://yoursite.com/categories/May-2017/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[PSO Algorithm]]></title>

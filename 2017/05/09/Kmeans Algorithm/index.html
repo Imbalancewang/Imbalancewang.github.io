@@ -92,17 +92,19 @@
 
 
 
-<meta name="description" content="PSO AlgorithmQuote  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, insp">
+<meta name="description" content="Kmeans AlgorithmBasic InformationK-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarit">
 <meta name="keywords" content="Matlab">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PSO  Algorithm">
-<meta property="og:url" content="http://yoursite.com/2017/05/06/PSO Algorithm/index.html">
+<meta property="og:title" content="Kmeans">
+<meta property="og:url" content="http://yoursite.com/2017/05/09/Kmeans Algorithm/index.html">
 <meta property="og:site_name" content="Matthew">
-<meta property="og:description" content="PSO AlgorithmQuote  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, insp">
-<meta property="og:updated_time" content="2017-05-06T14:54:36.000Z">
+<meta property="og:description" content="Kmeans AlgorithmBasic InformationK-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarit">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/cefc1e178a82b90127c36053738da9773912ef60.jpg">
+<meta property="og:updated_time" content="2017-05-09T15:45:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PSO  Algorithm">
-<meta name="twitter:description" content="PSO AlgorithmQuote  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, insp">
+<meta name="twitter:title" content="Kmeans">
+<meta name="twitter:description" content="Kmeans AlgorithmBasic InformationK-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarit">
+<meta name="twitter:image" content="http://operts5oh.bkt.clouddn.com/cefc1e178a82b90127c36053738da9773912ef60.jpg">
 
 
 
@@ -130,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/05/06/PSO Algorithm/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/05/09/Kmeans Algorithm/"/>
 
 
 
 
 
-  <title>PSO  Algorithm | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>Kmeans | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -309,7 +311,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/06/PSO Algorithm/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/09/Kmeans Algorithm/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Matthew">
@@ -330,7 +332,7 @@
             
             
               
-                PSO  Algorithm
+                Kmeans
               
             
           </h1>
@@ -345,8 +347,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-06T22:38:09+08:00">
-                2017-05-06
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-09T22:45:07+08:00">
+                2017-05-09
               </time>
             
 
@@ -402,28 +404,31 @@
       
 
       
-        <h1 id="PSO-Algorithm"><a href="#PSO-Algorithm" class="headerlink" title="PSO Algorithm"></a>PSO Algorithm</h1><h2 id="Quote"><a href="#Quote" class="headerlink" title="Quote"></a>Quote</h2><p>  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, inspired by the rules of birds cluster and then build a simplified model by using swarm intelligence. And now, PSO algorithm is based on the observation of animal cluster activity, making use of the information sharing among the individuals in the group which makes the motion of the whole group evolve from disorder to order in the problem solving space, so that you can get the<br>optimum solution.</p>
+        <h1 id="Kmeans-Algorithm"><a href="#Kmeans-Algorithm" class="headerlink" title="Kmeans Algorithm"></a>Kmeans Algorithm</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>K-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarity is. It is considered that the clusters are made up of objects which are close to each other, so the compact and independent clusters are chosen as the final target.</p>
+<p><img src="http://operts5oh.bkt.clouddn.com/cefc1e178a82b90127c36053738da9773912ef60.jpg" alt=""></p>
+<p>The selection of K initial cluster centers has a great influence on the clustering results, because the first step of the algorithm is to select any k objects randomly as the center of the initial clustering, and represent a cluster. In each iteration of the algorithm, each object remaining in the data set is re assigned to the nearest cluster based on the distance from each cluster center. When all data objects are examined, an iterative operation is completed, and a new cluster center is calculated. If the value of J does not change before and after an iteration, the algorithm is proved to be convergent.</p>
 <hr>
-<h2 id="Algorithm-Inrtoduction"><a href="#Algorithm-Inrtoduction" class="headerlink" title="Algorithm Inrtoduction"></a>Algorithm Inrtoduction</h2><ul>
-<li><p>As mentioned earlier, PSO simulated predation behavior of birds. Imagine a scenario: a flock of birds in the random search of food. There is only one piece of food in this area. All the birds don’t know where the food is. But they know how far away the food is. So what is the best strategy to find food?. The simplest and most effective way is to search the area around the nearest bird.</p>
-<p> PSO is used to solve the optimization problem. In PSO, the solution of each optimization problem is a bird in the search space. We call it a particle. All particles have an adaptive value determined by the optimized function, and each particle has a velocity that determines the direction and distance of their flight. Then the particles follow the optimal particle in the solution space.</p>
-<p> PSO is initialized to a group of random particles. And then find the optimal solution by iteration. In each iteration, the particle updates itself by tracking two “extremes”. The first one is the optimal solution of the particle itself, which is called the pBest. The other extreme is the optimal solution which is found in the whole population. The extreme value is the global extreme value gBest. In addition, it is possible to use only a part of the neighborhood as a particle without the whole population.</p>
-</li>
-<li><p>When finding these two optimal values, the particle updates its speed and new position according to the following formula:</p>
-</li>
-<li><span>$V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$</span><!-- Has MathJax --></li>
-<li><span>$present=present+V$</span><!-- Has MathJax -->
-</li>
+<h2 id="Algorithm-Process"><a href="#Algorithm-Process" class="headerlink" title="Algorithm Process"></a>Algorithm Process</h2><p>Input: The numbers of clusters k, and the database containing N data objects.</p>
+<p>Ouput: K clustering with minimum variance criterion.</p>
+<ul>
+<li>(1)  K objects are selected as initial cluster centers from N data objects.</li>
+<li>(2)  According to the mean (central object) of each cluster, calculate the distances between each object and the central object. And also, on the basis of minimum distance, the corresponding objects are divided.</li>
+<li>(3)  Recalculate the value of each (with change) clustering (center object).</li>
+<li>(4)  Cycle (2) to (3) until each cluster does not change.</li>
 </ul>
-<p>In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one.</p>
-<h2 id="Parameter-Setting"><a href="#Parameter-Setting" class="headerlink" title="Parameter Setting"></a>Parameter Setting</h2><ul>
-<li>The number of particle generally take 20 to 40. In fact, 10 particles can get good results.</li>
-<li>Particle length: This is determined by the optimization problem, is the length of the problem solution.</li>
-<li>The scope of the particle: by the optimization problem, each dimension can be set different range.</li>
-<li>The learning factors usually take 2, also depending on the specific situation.</li>
-<li>Break condition: Maximum number of cycles and minimum error requirements.</li>
+<hr>
+<h2 id="Algorithm-Advantages"><a href="#Algorithm-Advantages" class="headerlink" title="Algorithm Advantages"></a>Algorithm Advantages</h2><ul>
+<li>The algorithm is simple.</li>
+<li>It is efficient and scalable for large data sets.</li>
 </ul>
-<h2 id="Matlab-Code"><a href="#Matlab-Code" class="headerlink" title="Matlab Code"></a>Matlab Code</h2><p>You can get code <a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/PSO" target="_blank" rel="external">here</a>.</p>
+<hr>
+<h2 id="Algiruthm-Disadvantages"><a href="#Algiruthm-Disadvantages" class="headerlink" title="Algiruthm Disadvantages"></a>Algiruthm Disadvantages</h2><ul>
+<li>In the K-means algorithm K is given in advance, the selection of this K value is very difficult to estimate.</li>
+<li>In the K-means algorithm, it is necessary to determine an initial partition according to the initial cluster center, and then optimize the initial partition. The selection of the initial cluster center has a great impact on the clustering results. Once the initial value is not good, it may not be able to get effective clustering results, which has become a major problem of the K-means algorithm.</li>
+<li>From the framework of K-means algorithm can be seen, the algorithm needs to constantly adjust constantly calculating the sample classification, a new clustering center adjusted, so when there is a very large amount of data, the algorithm time overhead is very large.</li>
+</ul>
+<hr>
+<h2 id="Matlab-code"><a href="#Matlab-code" class="headerlink" title="Matlab code"></a>Matlab code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/Kmeans" target="_blank" rel="external">here</a>.</p>
 
       
     </div>
@@ -471,18 +476,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/05/09/Kmeans Algorithm/" rel="next" title="Kmeans">
-                <i class="fa fa-chevron-left"></i> Kmeans
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/05/05/Markdown(III)/" rel="prev" title="Markdown(III)">
-                Markdown(III) <i class="fa fa-chevron-right"></i>
+              <a href="/2017/05/06/PSO Algorithm/" rel="prev" title="PSO  Algorithm">
+                PSO  Algorithm <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -650,7 +651,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PSO-Algorithm"><span class="nav-number">1.</span> <span class="nav-text">PSO Algorithm</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quote"><span class="nav-number">1.1.</span> <span class="nav-text">Quote</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algorithm-Inrtoduction"><span class="nav-number">1.2.</span> <span class="nav-text">Algorithm Inrtoduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Parameter-Setting"><span class="nav-number">1.3.</span> <span class="nav-text">Parameter Setting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Matlab-Code"><span class="nav-number">1.4.</span> <span class="nav-text">Matlab Code</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Kmeans-Algorithm"><span class="nav-number">1.</span> <span class="nav-text">Kmeans Algorithm</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Information"><span class="nav-number">1.1.</span> <span class="nav-text">Basic Information</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algorithm-Process"><span class="nav-number">1.2.</span> <span class="nav-text">Algorithm Process</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algorithm-Advantages"><span class="nav-number">1.3.</span> <span class="nav-text">Algorithm Advantages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algiruthm-Disadvantages"><span class="nav-number">1.4.</span> <span class="nav-text">Algiruthm Disadvantages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Matlab-code"><span class="nav-number">1.5.</span> <span class="nav-text">Matlab code</span></a></li></ol></li></ol></div>
             
 
           </div>
