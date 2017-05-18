@@ -5,8 +5,8 @@
     <url>%2F2017%2F05%2F13%2FGradient%20Descent%20Method(I)%2F</url>
     <content type="text"><![CDATA[Gradient Descent Method(I)Basic InformationThe gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest methods for solving unconstrained optimization problems. Solving ProcessThe calculation of the gradient descent method is to solve the minimum value in the direction of the gradient descent (and also to solve the maximum value along the ascending direction of the gradient).$a_(k+1)=a_k+\rho_k*s_. s_k$represents the gradient negative direction, while the \rho_k stands for the search step in the gradient direction.Gradient direction, we can get the derivative of the function, the step size is more difficult to determine, too big, it may be divergent, too small, convergence is too slow.The general method of determining the step size is determined by the linear search algorithm, which treats the coordinates of the next point as a function of a_k, and then satisfies the minimum of F(a_k+1).Because under normal circumstances, the gradient vector is 0 words that is to an extreme point, the gradient amplitude is 0 and the gradient descent algorithm for optimization, the termination condition is the amplitude of the gradient vector iteration algorithm is close to 0, you can set a constant threshold is very small. Codehere]]></content>
       <tags>
-        <tag>Machine Learning</tag>
         <tag>Matlab</tag>
+        <tag>Machine Learning</tag>
       </tags>
   </entry>
   <entry>
