@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-23T15:48:38.000Z</updated>
+  <updated>2017-05-18T07:38:30.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,23 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[Be slower or be faster]]></title>
-    <link href="http://yoursite.com/2017/05/18/Be%20slower%20or%20be%20faster/"/>
-    <id>http://yoursite.com/2017/05/18/Be slower or be faster/</id>
-    <published>2017-05-18T15:17:08.000Z</published>
-    <updated>2017-05-23T15:48:38.000Z</updated>
-    <content type="html"><![CDATA[Be slower or be faster Recently, I have seen a stange phenomenon, incluing my sister and my roommate, who watch videos at two times the speed. What is conveyed in the phenomenon is really interesting and worth our deep thought. Apperently, the fast rhythm has strongly influenced our daily life, and what I wonder is what the fast pace can bring us. Is it good to us, or not? I am not sure. For myself, maybe we should be slower, for we can listen to the sounds of the world.For we can enjoy the slow rhythm of the good. For we can enjoy the beautiful scenery around us. For we can think the meaning of ourselves carefully. You cannot experience these things above in a fast-paced life. Someone once said life is too short to love too late. But I want to say is life is not short. Slow down and see things clearly. And then go to make your life more colorful. Just be slower.]]></content>
-    <summary type="html">
-    <![CDATA[Be slower or be fast]]>
-    </summary>
-    
-      <category term="Personal essay" scheme="http://yoursite.com/tags/Personal-essay/"/>
-    
-      <category term="May 2017" scheme="http://yoursite.com/categories/May-2017/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[Gradient Descent Method(I)]]></title>
