@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Solving PDE by matlab(I)]]></title>
+    <url>%2F2017%2F06%2F07%2FSolving%20PDE%20by%20matlab%2F</url>
+    <content type="text"><![CDATA[Brief IntroductionAs we all know, the partial differential equation(PDE) is very hard to get the analytic solution in some way. But we can get numerical solution by matlab. Thus I will solve the problems such as elliptic PDE ,hyperbolic PDE and so on. I will give the concrete examples as follows. Concrete StepsIn matlab, there are two simple methods to solve the PDE. One is using the pdetool which is suitable for solving two-dimensional equation, and the other is to use pdepe function. So let’s focus on the first method at the beginning. The pdetool is very easy to operate, for it is a GUI which has a friendly interface and simple operation. You just need to obey the following advice. Make sure what kind of PDE you want to solve like elliptic PDE or what problems you are faced with including heat conduction equation and others. Determine the boundary condition. Clear the geometry of the PDE. Partition finite element and solve the equation. Example for Elliptic PDEProblem: First of all, just input “pdetool” in command window in matlab to open the pde toolbox. And you should draw a unit circle and click the boundary mode or click the omega Icon. The final result is shown in the figure Select the command of Boundary -&gt; Specify boundray cindition, and choose the Dirichlet condition with the h=1,r=0 set. Click the PDE button and then a dialog box which is shown below will pop out. Partition finite element.click the triangle button and the double-triangle button. Finally click the “=” button to solve the equation. And the numerical solution for Elliptic PDE will presented in your eyes. Codehere]]></content>
+      <categories>
+        <category>June 2017</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[June Plan]]></title>
     <url>%2F2017%2F06%2F01%2FJune%20Plan%2F</url>
     <content type="text"><![CDATA[June PlanWrite this essay, just to encourage me to study hard to cope with the final exams and for a deeper learning. I have gradually realized the probability theory and mathematical statistics may be the most important class for me in some way. It’s not only about the exam but also is the cornerstone of machine learning.So I decide to pay more attention on it. Of course the data structure the course should be valued. And also I must attach importance to the remaining courses. Last but not least, the machine learning courses of Andrew Ng , I must finish it before the summer holiday. So I summed up the following points. Pay attention on the final exams (especially the mathematical statistics). Learn the machine learning courses of Andrew Ng and data structure before going home. Write more code and articles.]]></content>
