@@ -20,9 +20,36 @@
     <id>http://yoursite.com/2017/06/07/Solving PDE by matlab/</id>
     <published>2017-06-07T15:14:26.000Z</published>
     <updated>2017-06-11T02:49:50.000Z</updated>
-    <content type="html"><![CDATA[Brief IntroductionAs we all know, the partial differential equation(PDE) is very hard to get the analytic solution in some way. But we can get numerical solution by matlab. Thus I will solve the problems such as elliptic PDE ,hyperbolic PDE and so on. I will give the concrete examples as follows. Concrete StepsIn matlab, there are two simple methods to solve the PDE. One is using the pdetool which is suitable for solving two-dimensional equation, and the other is to use pdepe function. So let’s focus on the first method at the beginning. The pdetool is very easy to operate, for it is a GUI which has a friendly interface and simple operation. You just need to obey the following advice. Make sure what kind of PDE you want to solve like elliptic PDE or what problems you are faced with including heat conduction equation and others. Determine the boundary condition. Clear the geometry of the PDE. Partition finite element and solve the equation. Example for Elliptic PDEProblem: First of all, just input “pdetool” in command window in matlab to open the pde toolbox. And you should draw a unit circle and click the boundary mode or click the omega Icon. The final result is shown in the figure Select the command of Boundary -&gt; Specify boundray cindition, and choose the Dirichlet condition with the h=1,r=0 set. Click the PDE button and then a dialog box which is shown below will pop out. Partition finite element.click the triangle button and the double-triangle button. Finally click the “=” button to solve the equation. And the numerical solution for Elliptic PDE will presented in your eyes. Codehere]]></content>
+    <content type="html"><![CDATA[<hr>
+<h2 id="Brief-Introduction"><a href="#Brief-Introduction" class="headerlink" title="Brief Introduction"></a>Brief Introduction</h2><p>As we all know, the partial differential equation(PDE) is very hard to get the analytic solution in some way. But we can get numerical solution by matlab. Thus I will solve the problems such as elliptic PDE ,hyperbolic PDE and so on. I will give the concrete examples as follows.</p>
+<hr>
+<h2 id="Concrete-Steps"><a href="#Concrete-Steps" class="headerlink" title="Concrete Steps"></a>Concrete Steps</h2><p>In matlab, there are two simple methods to solve the PDE. One is  using the pdetool which is suitable for solving two-dimensional equation, and the other is to use pdepe function. So let’s focus on the first method at the beginning. The pdetool is very easy to operate, for it is a GUI which has a friendly interface and simple operation. You just need to obey the following advice.</p>
+<ul>
+<li>Make sure what kind of PDE you want to solve like elliptic PDE or what problems you are faced with including heat conduction equation and others.</li>
+<li>Determine the boundary condition.</li>
+<li>Clear the geometry of the PDE.</li>
+<li>Partition finite element and solve the equation.</li>
+</ul>
+<hr>
+<h2 id="Example-for-Elliptic-PDE"><a href="#Example-for-Elliptic-PDE" class="headerlink" title="Example for Elliptic PDE"></a>Example for Elliptic PDE</h2><p>Problem:<img src="http://operts5oh.bkt.clouddn.com/Elliptic.jpeg" alt=""></p>
+<ul>
+<li>First of all, just input “pdetool” in command window in matlab to open the pde toolbox.</li>
+<li><p>And you should draw a unit circle and click the boundary mode or click the omega Icon. The final result is shown in the figure<img src="http://operts5oh.bkt.clouddn.com/Inkedcircle_LI.jpg" alt=""></p>
+</li>
+<li><p>Select the command of Boundary -&gt; Specify boundray cindition, and choose the Dirichlet condition with the h=1,r=0 set.<img src="http://operts5oh.bkt.clouddn.com/chart1.JPG" alt=""></p>
+</li>
+<li><p>Click the PDE button and then a dialog box which is shown below will pop out.<img src="http://operts5oh.bkt.clouddn.com/chart2.JPG" alt=""></p>
+</li>
+<li><p>Partition finite element.click the triangle button and the double-triangle button.<img src="http://operts5oh.bkt.clouddn.com/3.JPG" alt=""></p>
+</li>
+<li><p>Finally click the “=” button to solve the equation. And the numerical solution for Elliptic PDE will presented in your eyes.<img src="http://operts5oh.bkt.clouddn.com/solution.JPG" alt=""></p>
+</li>
+</ul>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/blob/master/%E7%AE%97%E6%B3%95/PDE/PDE_Elliptic.m" target="_blank" rel="external">here</a></p>
+]]></content>
     <summary type="html">
-    <![CDATA[Brief IntroductionA]]>
+    <![CDATA[<hr>
+<h2 id="Brief-Introduction"><a href="#Brief-Introduction" class="headerlink" title="Brief Introduction"></a>Brief Introduction</h2><p>A]]>
     </summary>
     
       <category term="Matlab" scheme="http://yoursite.com/tags/Matlab/"/>
@@ -37,9 +64,15 @@
     <id>http://yoursite.com/2017/06/01/June Plan/</id>
     <published>2017-06-01T15:21:55.000Z</published>
     <updated>2017-06-03T04:53:59.000Z</updated>
-    <content type="html"><![CDATA[June PlanWrite this essay, just to encourage me to study hard to cope with the final exams and for a deeper learning. I have gradually realized the probability theory and mathematical statistics may be the most important class for me in some way. It’s not only about the exam but also is the cornerstone of machine learning.So I decide to pay more attention on it. Of course the data structure the course should be valued. And also I must attach importance to the remaining courses. Last but not least, the machine learning courses of Andrew Ng , I must finish it before the summer holiday. So I summed up the following points. Pay attention on the final exams (especially the mathematical statistics). Learn the machine learning courses of Andrew Ng and data structure before going home. Write more code and articles.]]></content>
+    <content type="html"><![CDATA[<h1 id="June-Plan"><a href="#June-Plan" class="headerlink" title="June Plan"></a>June Plan</h1><p>Write this essay, just to encourage me to study hard to cope with the final exams and for a deeper learning. I have gradually  realized the probability theory and mathematical statistics may be the most important class for me in some way. It’s not only about the exam but also  is the cornerstone of machine learning.<br>So I decide to pay more attention on it. Of course the data structure the course should be valued. And also I must attach importance to the remaining courses. Last but not least, the machine learning courses of Andrew Ng , I must finish it before the summer holiday. So I summed up the following points.</p>
+<ul>
+<li>Pay attention on the final exams (especially the mathematical statistics).</li>
+<li>Learn the machine learning courses of Andrew Ng and data structure before going home.</li>
+<li>Write more code and articles.</li>
+</ul>
+]]></content>
     <summary type="html">
-    <![CDATA[June PlanWrite this essay, just to encourage me to]]>
+    <![CDATA[<h1 id="June-Plan"><a href="#June-Plan" class="headerlink" title="June Plan"></a>June Plan</h1><p>Write this essay, just to encourage me to ]]>
     </summary>
     
       <category term="Personal essay" scheme="http://yoursite.com/tags/Personal-essay/"/>
@@ -54,9 +87,10 @@
     <id>http://yoursite.com/2017/05/18/Be slower or be faster/</id>
     <published>2017-05-18T15:17:08.000Z</published>
     <updated>2017-05-23T16:01:17.000Z</updated>
-    <content type="html"><![CDATA[Be slower or be faster Recently, I have seen a stange phenomenon, incluing my sister and my roommate, who watch videos at two times the speed. What is conveyed in the phenomenon is really interesting and worth our deep thought. Apperently, the fast rhythm has strongly influenced our daily life, and what I wonder is what the fast pace can bring us. Is it good to us, or not? I am not sure. For myself, maybe we should be slower, for we can listen to the sounds of the world.For we can enjoy the slow rhythm of the good. For we can enjoy the beautiful scenery around us.For we can think the meaning of ourselves carefully. You cannot experience these things above in a fast-paced life. Someone once said life is too short to love too late. But I want to say is life is not short. Slow down and see things clearly. And then go to make your life more colorful. Just be slower.]]></content>
+    <content type="html"><![CDATA[<h1 id="Be-slower-or-be-faster"><a href="#Be-slower-or-be-faster" class="headerlink" title="Be slower or be faster"></a>Be slower or be faster</h1><p>  Recently, I have seen a stange phenomenon, incluing my sister and my roommate, who watch videos at two times the speed. What is conveyed in the phenomenon is really interesting and worth our deep thought.<br>  Apperently, the fast rhythm has strongly influenced our daily life, and what I wonder is what the fast pace can bring us. Is it good to us, or not? I am not sure. For myself, maybe we should be slower, for we can listen to the sounds of the world.For we can enjoy the slow rhythm of the good. For we can enjoy the beautiful scenery around us.For we can think the meaning of ourselves carefully. You cannot experience these things above in a fast-paced life.<br>  Someone once said life is too short to love too late. But I want to say is life is not short. Slow down and see things clearly. And then go to make your life more colorful. Just be slower. </p>
+]]></content>
     <summary type="html">
-    <![CDATA[Be slower or be fast]]>
+    <![CDATA[<h1 id="Be-slower-or-be-faster"><a href="#Be-slower-or-be-faster" class="headerlink" title="Be slower or be faster"></a>Be slower or be fast]]>
     </summary>
     
       <category term="Personal essay" scheme="http://yoursite.com/tags/Personal-essay/"/>
@@ -71,9 +105,12 @@
     <id>http://yoursite.com/2017/05/13/Gradient Descent Method(I)/</id>
     <published>2017-05-13T15:04:32.000Z</published>
     <updated>2017-05-18T07:38:30.000Z</updated>
-    <content type="html"><![CDATA[Gradient Descent Method(I)Basic InformationThe gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest methods for solving unconstrained optimization problems. Solving ProcessThe calculation of the gradient descent method is to solve the minimum value in the direction of the gradient descent (and also to solve the maximum value along the ascending direction of the gradient).$a_(k+1)=a_k+\rho_k*s_. s_k$represents the gradient negative direction, while the \rho_k stands for the search step in the gradient direction.Gradient direction, we can get the derivative of the function, the step size is more difficult to determine, too big, it may be divergent, too small, convergence is too slow.The general method of determining the step size is determined by the linear search algorithm, which treats the coordinates of the next point as a function of a_k, and then satisfies the minimum of F(a_k+1).Because under normal circumstances, the gradient vector is 0 words that is to an extreme point, the gradient amplitude is 0 and the gradient descent algorithm for optimization, the termination condition is the amplitude of the gradient vector iteration algorithm is close to 0, you can set a constant threshold is very small. Codehere]]></content>
+    <content type="html"><![CDATA[<h1 id="Gradient-Descent-Method-I"><a href="#Gradient-Descent-Method-I" class="headerlink" title="Gradient Descent Method(I)"></a>Gradient Descent Method(I)</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>The gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest methods for solving unconstrained optimization problems.</p>
+<h2 id="Solving-Process"><a href="#Solving-Process" class="headerlink" title="Solving Process"></a>Solving Process</h2><p>The calculation of the gradient descent method is to solve the minimum value in the direction of the gradient descent (and also to solve the maximum value along the ascending direction of the gradient).<br><span>$a_(k+1)=a_k+\rho_k*s_. s_k$</span><!-- Has MathJax -->represents the gradient negative direction, while the \rho_k stands for the search step in the gradient direction.Gradient direction, we can get the derivative of the function, the step size is more difficult to determine, too big, it may be divergent, too small, convergence is too slow.The general method of determining the step size is determined by the linear search algorithm, which treats the coordinates of the next point as a function of a_k, and then satisfies the minimum of F(a_k+1).<br>Because under normal circumstances, the gradient vector is 0 words that is to an extreme point, the gradient amplitude is 0 and the gradient descent algorithm for optimization, the termination condition is the amplitude of the gradient vector iteration algorithm is close to 0, you can set a constant threshold is very small.</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95" target="_blank" rel="external">here</a></p>
+]]></content>
     <summary type="html">
-    <![CDATA[Gradient D]]>
+    <![CDATA[<h1 id="Gradient-Descent-Method-I"><a href="#Gradient-Descent-Method-I" class="headerlink" title="Gradient Descent Method(I)"></a>Gradient D]]>
     </summary>
     
       <category term="Matlab" scheme="http://yoursite.com/tags/Matlab/"/>
@@ -88,9 +125,34 @@
     <id>http://yoursite.com/2017/05/09/Kmeans Algorithm/</id>
     <published>2017-05-09T14:45:07.000Z</published>
     <updated>2017-05-09T15:45:27.000Z</updated>
-    <content type="html"><![CDATA[Kmeans AlgorithmBasic InformationK-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarity is. It is considered that the clusters are made up of objects which are close to each other, so the compact and independent clusters are chosen as the final target. The selection of K initial cluster centers has a great influence on the clustering results, because the first step of the algorithm is to select any k objects randomly as the center of the initial clustering, and represent a cluster. In each iteration of the algorithm, each object remaining in the data set is re assigned to the nearest cluster based on the distance from each cluster center. When all data objects are examined, an iterative operation is completed, and a new cluster center is calculated. If the value of J does not change before and after an iteration, the algorithm is proved to be convergent. Algorithm ProcessInput: The numbers of clusters k, and the database containing N data objects. Ouput: K clustering with minimum variance criterion. (1) K objects are selected as initial cluster centers from N data objects. (2) According to the mean (central object) of each cluster, calculate the distances between each object and the central object. And also, on the basis of minimum distance, the corresponding objects are divided. (3) Recalculate the value of each (with change) clustering (center object). (4) Cycle (2) to (3) until each cluster does not change. Algorithm Advantages The algorithm is simple. It is efficient and scalable for large data sets. Algiruthm Disadvantages In the K-means algorithm K is given in advance, the selection of this K value is very difficult to estimate. In the K-means algorithm, it is necessary to determine an initial partition according to the initial cluster center, and then optimize the initial partition. The selection of the initial cluster center has a great impact on the clustering results. Once the initial value is not good, it may not be able to get effective clustering results, which has become a major problem of the K-means algorithm. From the framework of K-means algorithm can be seen, the algorithm needs to constantly adjust constantly calculating the sample classification, a new clustering center adjusted, so when there is a very large amount of data, the algorithm time overhead is very large. Matlab codehere.]]></content>
+    <content type="html"><![CDATA[<h1 id="Kmeans-Algorithm"><a href="#Kmeans-Algorithm" class="headerlink" title="Kmeans Algorithm"></a>Kmeans Algorithm</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>K-means is a typical clustering algorithm based on distance, using the distance as a similarity evaluation index. The closer between two objects, the greater similarity is. It is considered that the clusters are made up of objects which are close to each other, so the compact and independent clusters are chosen as the final target.</p>
+<p><img src="http://operts5oh.bkt.clouddn.com/cefc1e178a82b90127c36053738da9773912ef60.jpg" alt=""></p>
+<p>The selection of K initial cluster centers has a great influence on the clustering results, because the first step of the algorithm is to select any k objects randomly as the center of the initial clustering, and represent a cluster. In each iteration of the algorithm, each object remaining in the data set is re assigned to the nearest cluster based on the distance from each cluster center. When all data objects are examined, an iterative operation is completed, and a new cluster center is calculated. If the value of J does not change before and after an iteration, the algorithm is proved to be convergent.</p>
+<hr>
+<h2 id="Algorithm-Process"><a href="#Algorithm-Process" class="headerlink" title="Algorithm Process"></a>Algorithm Process</h2><p>Input: The numbers of clusters k, and the database containing N data objects.</p>
+<p>Ouput: K clustering with minimum variance criterion.</p>
+<ul>
+<li>(1)  K objects are selected as initial cluster centers from N data objects.</li>
+<li>(2)  According to the mean (central object) of each cluster, calculate the distances between each object and the central object. And also, on the basis of minimum distance, the corresponding objects are divided.</li>
+<li>(3)  Recalculate the value of each (with change) clustering (center object).</li>
+<li>(4)  Cycle (2) to (3) until each cluster does not change.</li>
+</ul>
+<hr>
+<h2 id="Algorithm-Advantages"><a href="#Algorithm-Advantages" class="headerlink" title="Algorithm Advantages"></a>Algorithm Advantages</h2><ul>
+<li>The algorithm is simple.</li>
+<li>It is efficient and scalable for large data sets.</li>
+</ul>
+<hr>
+<h2 id="Algiruthm-Disadvantages"><a href="#Algiruthm-Disadvantages" class="headerlink" title="Algiruthm Disadvantages"></a>Algiruthm Disadvantages</h2><ul>
+<li>In the K-means algorithm K is given in advance, the selection of this K value is very difficult to estimate.</li>
+<li>In the K-means algorithm, it is necessary to determine an initial partition according to the initial cluster center, and then optimize the initial partition. The selection of the initial cluster center has a great impact on the clustering results. Once the initial value is not good, it may not be able to get effective clustering results, which has become a major problem of the K-means algorithm.</li>
+<li>From the framework of K-means algorithm can be seen, the algorithm needs to constantly adjust constantly calculating the sample classification, a new clustering center adjusted, so when there is a very large amount of data, the algorithm time overhead is very large.</li>
+</ul>
+<hr>
+<h2 id="Matlab-code"><a href="#Matlab-code" class="headerlink" title="Matlab code"></a>Matlab code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/Kmeans" target="_blank" rel="external">here</a>.</p>
+]]></content>
     <summary type="html">
-    <![CDATA[Kmeans Algorithm]]>
+    <![CDATA[<h1 id="Kmeans-Algorithm"><a href="#Kmeans-Algorithm" class="headerlink" title="Kmeans Algorithm"></a>Kmeans Algorithm</h1><h2 id="Basic-Inf]]>
     </summary>
     
       <category term="Matlab" scheme="http://yoursite.com/tags/Matlab/"/>
@@ -100,14 +162,36 @@
   </entry>
   
   <entry>
-    <title><![CDATA[PSO Algorithm]]></title>
+    <title><![CDATA[PSO  Algorithm]]></title>
     <link href="http://yoursite.com/2017/05/06/PSO%20Algorithm/"/>
     <id>http://yoursite.com/2017/05/06/PSO Algorithm/</id>
     <published>2017-05-06T14:38:09.000Z</published>
     <updated>2017-05-06T14:54:36.000Z</updated>
-    <content type="html"><![CDATA[PSO AlgorithmQuote The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, inspired by the rules of birds cluster and then build a simplified model by using swarm intelligence. And now, PSO algorithm is based on the observation of animal cluster activity, making use of the information sharing among the individuals in the group which makes the motion of the whole group evolve from disorder to order in the problem solving space, so that you can get theoptimum solution. Algorithm Inrtoduction As mentioned earlier, PSO simulated predation behavior of birds. Imagine a scenario: a flock of birds in the random search of food. There is only one piece of food in this area. All the birds don’t know where the food is. But they know how far away the food is. So what is the best strategy to find food?. The simplest and most effective way is to search the area around the nearest bird. PSO is used to solve the optimization problem. In PSO, the solution of each optimization problem is a bird in the search space. We call it a particle. All particles have an adaptive value determined by the optimized function, and each particle has a velocity that determines the direction and distance of their flight. Then the particles follow the optimal particle in the solution space. PSO is initialized to a group of random particles. And then find the optimal solution by iteration. In each iteration, the particle updates itself by tracking two “extremes”. The first one is the optimal solution of the particle itself, which is called the pBest. The other extreme is the optimal solution which is found in the whole population. The extreme value is the global extreme value gBest. In addition, it is possible to use only a part of the neighborhood as a particle without the whole population. When finding these two optimal values, the particle updates its speed and new position according to the following formula: $V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$ $present=present+V$ In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one. Parameter Setting The number of particle generally take 20 to 40. In fact, 10 particles can get good results. Particle length: This is determined by the optimization problem, is the length of the problem solution. The scope of the particle: by the optimization problem, each dimension can be set different range. The learning factors usually take 2, also depending on the specific situation. Break condition: Maximum number of cycles and minimum error requirements. Matlab CodeYou can get code here.]]></content>
+    <content type="html"><![CDATA[<h1 id="PSO-Algorithm"><a href="#PSO-Algorithm" class="headerlink" title="PSO Algorithm"></a>PSO Algorithm</h1><h2 id="Quote"><a href="#Quote" class="headerlink" title="Quote"></a>Quote</h2><p>  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, inspired by the rules of birds cluster and then build a simplified model by using swarm intelligence. And now, PSO algorithm is based on the observation of animal cluster activity, making use of the information sharing among the individuals in the group which makes the motion of the whole group evolve from disorder to order in the problem solving space, so that you can get the<br>optimum solution.</p>
+<hr>
+<h2 id="Algorithm-Inrtoduction"><a href="#Algorithm-Inrtoduction" class="headerlink" title="Algorithm Inrtoduction"></a>Algorithm Inrtoduction</h2><ul>
+<li><p>As mentioned earlier, PSO simulated predation behavior of birds. Imagine a scenario: a flock of birds in the random search of food. There is only one piece of food in this area. All the birds don’t know where the food is. But they know how far away the food is. So what is the best strategy to find food?. The simplest and most effective way is to search the area around the nearest bird.</p>
+<p> PSO is used to solve the optimization problem. In PSO, the solution of each optimization problem is a bird in the search space. We call it a particle. All particles have an adaptive value determined by the optimized function, and each particle has a velocity that determines the direction and distance of their flight. Then the particles follow the optimal particle in the solution space.</p>
+<p> PSO is initialized to a group of random particles. And then find the optimal solution by iteration. In each iteration, the particle updates itself by tracking two “extremes”. The first one is the optimal solution of the particle itself, which is called the pBest. The other extreme is the optimal solution which is found in the whole population. The extreme value is the global extreme value gBest. In addition, it is possible to use only a part of the neighborhood as a particle without the whole population.</p>
+</li>
+<li><p>When finding these two optimal values, the particle updates its speed and new position according to the following formula:</p>
+</li>
+<li><span>$V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$</span><!-- Has MathJax --></li>
+<li><span>$present=present+V$</span><!-- Has MathJax -->
+</li>
+</ul>
+<p>In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one.</p>
+<h2 id="Parameter-Setting"><a href="#Parameter-Setting" class="headerlink" title="Parameter Setting"></a>Parameter Setting</h2><ul>
+<li>The number of particle generally take 20 to 40. In fact, 10 particles can get good results.</li>
+<li>Particle length: This is determined by the optimization problem, is the length of the problem solution.</li>
+<li>The scope of the particle: by the optimization problem, each dimension can be set different range.</li>
+<li>The learning factors usually take 2, also depending on the specific situation.</li>
+<li>Break condition: Maximum number of cycles and minimum error requirements.</li>
+</ul>
+<h2 id="Matlab-Code"><a href="#Matlab-Code" class="headerlink" title="Matlab Code"></a>Matlab Code</h2><p>You can get code <a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/PSO" target="_blank" rel="external">here</a>.</p>
+]]></content>
     <summary type="html">
-    <![CDATA[PSO Algorithm]]>
+    <![CDATA[<h1 id="PSO-Algorithm"><a href="#PSO-Algorithm" class="headerlink" title="PSO Algorithm"></a>PSO Algorithm</h1><h2 id="Quote"><a href="#Quot]]>
     </summary>
     
       <category term="Matlab" scheme="http://yoursite.com/tags/Matlab/"/>
@@ -122,9 +206,17 @@
     <id>http://yoursite.com/2017/05/05/Markdown(III)/</id>
     <published>2017-05-05T04:55:09.000Z</published>
     <updated>2017-05-05T05:46:08.000Z</updated>
-    <content type="html"><![CDATA[Something about Markdown(III) II. The grammar of MarkdownTableThe grammar of tables is a little bit complex. You can clearly see how does it work below. Code BoxIf you are a programmar, the code box which you want to put into you personal website is really important. The picture below clearly show it. The Cut-Off LineThe cut-off line just needs “*“. III. The feel of MarkdownThe grammar of Markdown is not only these, there is more interesting thing for you to explore. In my opinion, the Markdown is an amazing language and helps me a lot especially in building my own website. I will practice more so that I can have a better command of Markdown and make much progress.]]></content>
+    <content type="html"><![CDATA[<h1 id="Something-about-Markdown-III"><a href="#Something-about-Markdown-III" class="headerlink" title="Something about Markdown(III)"></a>Something about Markdown(III)</h1><hr>
+<h2 id="II-The-grammar-of-Markdown"><a href="#II-The-grammar-of-Markdown" class="headerlink" title="II. The grammar of Markdown"></a>II. The grammar of Markdown</h2><h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><p>The grammar of tables is a little bit complex. You can clearly see how does it work below.<br><img src="http://operts5oh.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-05%2012.55.26.png" alt=""></p>
+<hr>
+<h3 id="Code-Box"><a href="#Code-Box" class="headerlink" title="Code Box"></a>Code Box</h3><p>If you are a programmar, the code box which you want to put into you personal website is really important. The picture below clearly show it.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effg1lsa97j20lt0a8dgs.jpg" alt=""></p>
+<hr>
+<h3 id="The-Cut-Off-Line"><a href="#The-Cut-Off-Line" class="headerlink" title="The Cut-Off Line"></a>The Cut-Off Line</h3><p>The cut-off line just needs “<em>*</em>“.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effgmnpgqlj210j0us44j.jpg" alt=""></p>
+<hr>
+<h2 id="III-The-feel-of-Markdown"><a href="#III-The-feel-of-Markdown" class="headerlink" title="III. The feel of Markdown"></a>III. The feel of Markdown</h2><p>The grammar of Markdown is not only these, there is more interesting thing for you to explore. In my opinion, the Markdown is an amazing language and helps me a lot especially in  building my own website. I will practice more so that I can have a better command of Markdown and make much progress. </p>
+]]></content>
     <summary type="html">
-    <![CDATA[S]]>
+    <![CDATA[<h1 id="Something-about-Markdown-III"><a href="#Something-about-Markdown-III" class="headerlink" title="Something about Markdown(III)"></a>S]]>
     </summary>
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
@@ -139,9 +231,19 @@
     <id>http://yoursite.com/2017/05/02/Markdown(II)/</id>
     <published>2017-05-02T14:20:49.000Z</published>
     <updated>2017-05-05T05:19:04.000Z</updated>
-    <content type="html"><![CDATA[Something about Markdown(II) II. The grammar of MarkdownTitleThere are six level heading in Markdown, and every heading needs one space before the title. The picture above clearly show the grammar of the title. ListIn Markdown, the display of list just needs “-“ or “*”, which is formed of unordered list. As for the ordered list, you just need add “1.”, “2.”,and “3.” before words. The picture under the passage clearly show it. QuoteIf you want yo quote something to your essay, you just need to insert “&gt;” before the word. Picture and LinkThe grammar of inserting picture and link is similar. The difference between them is “!”.By the way, I use this website to store my pictures. Bold and ItalicThe grammar of bold and italic is simple. The picture under the passage clearly show it.]]></content>
+    <content type="html"><![CDATA[<h1 id="Something-about-Markdown-II"><a href="#Something-about-Markdown-II" class="headerlink" title="Something about Markdown(II)"></a>Something about Markdown(II)</h1><hr>
+<h2 id="II-The-grammar-of-Markdown"><a href="#II-The-grammar-of-Markdown" class="headerlink" title="II. The grammar of Markdown"></a>II. The grammar of Markdown</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effeaclhiyj20eh09cwez.jpg" alt=""><br>There are six level heading in Markdown, and every heading needs one space before the title. The picture above clearly show the grammar of the title.</p>
+<h3 id="List"><a href="#List" class="headerlink" title="List"></a>List</h3><p>In Markdown, the display of list just needs “-“ or “*”, which is formed of unordered list. As for the ordered list, you just need add “1.”, “2.”,and “3.” before words. The picture under the passage clearly show it.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effew5aftij20d80bz3yw.jpg" alt=""> </p>
+<hr>
+<h3 id="Quote"><a href="#Quote" class="headerlink" title="Quote"></a>Quote</h3><p>If you want yo quote something to your essay, you just need to insert “&gt;” before the word.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1effezhonxlj20e009c3yu.jpg" alt=""></p>
+<hr>
+<h3 id="Picture-and-Link"><a href="#Picture-and-Link" class="headerlink" title="Picture and Link"></a>Picture and Link</h3><p>The grammar of inserting picture and link is similar. The difference between them is “!”.<br><img src="http://operts5oh.bkt.clouddn.com/6aee7dbbgw1efffa67voyj20ix0ctq3n.jpg" alt=""><br>By the way, I use this <a href="https://
+www.qiniu.com/" target="_blank" rel="external">website</a> to store my pictures.</p>
+<hr>
+<h3 id="Bold-and-Italic"><a href="#Bold-and-Italic" class="headerlink" title="Bold and Italic"></a>Bold and Italic</h3><p>The grammar of bold and italic is simple. The picture under the passage clearly show it.<br><img src="http://operts5oh.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-04%2012.38.41.png" alt=""> </p>
+]]></content>
     <summary type="html">
-    <![CDATA[Some]]>
+    <![CDATA[<h1 id="Something-about-Markdown-II"><a href="#Something-about-Markdown-II" class="headerlink" title="Something about Markdown(II)"></a>Some]]>
     </summary>
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
@@ -156,9 +258,29 @@
     <id>http://yoursite.com/2017/05/01/Markdown(I)/</id>
     <published>2017-05-01T05:49:57.000Z</published>
     <updated>2017-05-05T05:17:03.000Z</updated>
-    <content type="html"><![CDATA[Something about Markdown(I) Introduction Markdown is a light weight language, which has many merits. If you want to learn about more details, please click here.I will briefly introuduce the grammar of this language and my feel. I.About Markdown We can learn from the introduction that the Markdown is a light weight language. This language focuses on the simple grammar instead of the complex composing, which makes us concentrate on writting itself rather than optimizing the structure. What’s more, many editors and websites support this language, such as sublime ,jianshu and so on. Last but not least, when you finish the task with Markdown, the format of exportation could be varied. The official document of Markdown You can refer to more information with the below websites. http://markdown-here.com/ http://daringfireball.net/projects/markdown/syntax http://wowubuntu.com/markdown/#list The merits of Markdown Focus on your content instead of composing. Easily export files with the format of HTML, PDF and md. Have a simple grammar and easy to learn. The tool of MarkdownI strongly suggest Mou and Macdown, if you are using the Mac. And also, MarkdownPad and MarkPad are very suuitable for Windows.]]></content>
+    <content type="html"><![CDATA[<h1 id="Something-about-Markdown-I"><a href="#Something-about-Markdown-I" class="headerlink" title="Something about Markdown(I)"></a>Something about Markdown(I)</h1><hr>
+<h4 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h4><blockquote>
+<p>Markdown is a light weight language, which has many merits. If you want to learn about more details, please click <a href="http://baike.baidu.com/link?url=tMXDEXSaA8GMwHdQk8dq-XG1eZq9uOjDUyIJSLupWlOJLjFCv9U8BBJ-OZ3txifpS5GpTnk9bgk41eRwei9DH149q1h_9PObSlt3rIdZdwi" target="_blank" rel="external">here</a>.I will briefly introuduce the grammar of this language and my feel.</p>
+</blockquote>
+<hr>
+<h2 id="I-About-Markdown"><a href="#I-About-Markdown" class="headerlink" title="I.About Markdown"></a>I.About Markdown</h2><p> We can learn from the introduction that the Markdown is a light weight language. This language focuses on the simple grammar instead of the complex composing, which makes us concentrate on writting itself rather than optimizing the structure. What’s more, many editors and websites support this language, such as sublime ,jianshu and so on. Last but not least, when you finish the task with Markdown, the format of exportation could be varied.</p>
+<h3 id="The-official-document-of-Markdown"><a href="#The-official-document-of-Markdown" class="headerlink" title="The official document of Markdown"></a>The official document of Markdown</h3><blockquote>
+<p>You can refer to more information with the below websites.</p>
+</blockquote>
+<ul>
+<li><a href="http://markdown-here.com/" target="_blank" rel="external">http://markdown-here.com/</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">http://daringfireball.net/projects/markdown/syntax</a></li>
+<li><a href="http://wowubuntu.com/markdown/#list" target="_blank" rel="external">http://wowubuntu.com/markdown/#list</a></li>
+</ul>
+<h3 id="The-merits-of-Markdown"><a href="#The-merits-of-Markdown" class="headerlink" title="The merits of Markdown"></a>The merits of Markdown</h3><ul>
+<li>Focus on your content instead of composing.</li>
+<li>Easily export files with the format of HTML, PDF and md.</li>
+<li>Have a simple grammar and easy to learn.</li>
+</ul>
+<h3 id="The-tool-of-Markdown"><a href="#The-tool-of-Markdown" class="headerlink" title="The tool of Markdown"></a>The tool of Markdown</h3><p>I strongly suggest <a href="http://25.io/mou/" target="_blank" rel="external">Mou</a> and <a href="http://macdown.uranusjr.com/" target="_blank" rel="external">Macdown</a>, if you are using the Mac. And also, <a href="http://macdown.uranusjr.com/" target="_blank" rel="external">MarkdownPad</a> and <a href="http://code52.org/DownmarkerWPF/" target="_blank" rel="external">MarkPad</a> are very suuitable for Windows.</p>
+]]></content>
     <summary type="html">
-    <![CDATA[Somethi]]>
+    <![CDATA[<h1 id="Something-about-Markdown-I"><a href="#Something-about-Markdown-I" class="headerlink" title="Something about Markdown(I)"></a>Somethi]]>
     </summary>
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
@@ -173,9 +295,9 @@
     <id>http://yoursite.com/2017/04/27/Preface/</id>
     <published>2017-04-27T14:52:06.000Z</published>
     <updated>2017-05-03T14:20:09.000Z</updated>
-    <content type="html"><![CDATA[First of all, I am very grateful for the help of Dropar, who is my roommate and give me lots of helpful suggestions for my website. And of course, the process of building my website is very hard. I have spent almost a week building mt website. If anyone has some trouble, you can contact me with my Wechat ID: Wangbin-matthew. Finally, make a brief introuduction of my website. My website records some of my experiences and what I am learning now. If website has some mistakes, please contact me immediately. And also I am very happy to communicate with each other and make progress togehter.]]></content>
+    <content type="html"><![CDATA[<h5 id="First-of-all-I-am-very-grateful-for-the-help-of-Dropar-who-is-my-roommate-and-give-me-lots-of-helpful-suggestions-for-my-website-And-of-course-the-process-of-building-my-website-is-very-hard-I-have-spent-almost-a-week-building-mt-website-If-anyone-has-some-trouble-you-can-contact-me-with-my-Wechat-ID-Wangbin-matthew-Finally-make-a-brief-introuduction-of-my-website-My-website-records-some-of-my-experiences-and-what-I-am-learning-now-If-website-has-some-mistakes-please-contact-me-immediately-And-also-I-am-very-happy-to-communicate-with-each-other-and-make-progress-togehter"><a href="#First-of-all-I-am-very-grateful-for-the-help-of-Dropar-who-is-my-roommate-and-give-me-lots-of-helpful-suggestions-for-my-website-And-of-course-the-process-of-building-my-website-is-very-hard-I-have-spent-almost-a-week-building-mt-website-If-anyone-has-some-trouble-you-can-contact-me-with-my-Wechat-ID-Wangbin-matthew-Finally-make-a-brief-introuduction-of-my-website-My-website-records-some-of-my-experiences-and-what-I-am-learning-now-If-website-has-some-mistakes-please-contact-me-immediately-And-also-I-am-very-happy-to-communicate-with-each-other-and-make-progress-togehter" class="headerlink" title="First of all, I am very grateful for the help of Dropar, who is my roommate and give me lots of helpful suggestions for my website. And of course, the process of building my website is very hard. I have spent almost a week building mt website. If anyone has some trouble, you can contact me with my Wechat ID: Wangbin-matthew. Finally, make a brief introuduction of my website. My website records some of my experiences and what I am learning now. If website has some mistakes, please contact me immediately. And also I am very happy to communicate with each other and make progress togehter."></a>First of all, I am very grateful for the help of Dropar, who is my roommate and give me lots of helpful suggestions for my website. And of course, the process of building my website is very hard. I have spent almost a week building mt website. If anyone has some trouble, you can contact me with my Wechat ID: Wangbin-matthew. Finally, make a brief introuduction of my website. My website records some of my experiences and what I am learning now. If website has some mistakes, please contact me immediately. And also I am very happy to communicate with each other and make progress togehter.</h5>]]></content>
     <summary type="html">
-    <![CDATA[]]>
+    <![CDATA[<h5 id="First-of-all-I-am-very-grateful-for-the-help-of-Dropar-who-is-my-roommate-and-give-me-lots-of-helpful-suggestions-for-my-website-And]]>
     </summary>
     
       <category term="Preface" scheme="http://yoursite.com/tags/Preface/"/>
@@ -190,9 +312,11 @@
     <id>http://yoursite.com/2017/04/27/hello-world/</id>
     <published>2017-04-27T13:37:02.000Z</published>
     <updated>2017-05-05T17:09:53.000Z</updated>
-    <content type="html"><![CDATA[Hello World!Hello my website!]]></content>
+    <content type="html"><![CDATA[<p>Hello World!<br>Hello my website!</p>
+]]></content>
     <summary type="html">
-    <![CDATA[Hello World!Hello my website!]]>
+    <![CDATA[<p>Hello World!<br>Hello my website!</p>
+]]>
     </summary>
     
   </entry>
