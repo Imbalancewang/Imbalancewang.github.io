@@ -306,169 +306,6 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/06/PSO Algorithm/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Matthew">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Matthew">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/05/06/PSO Algorithm/" itemprop="url">
-                  PSO  Algorithm
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-06T22:38:09+08:00">
-                2017-05-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/May-2017/" itemprop="url" rel="index">
-                    <span itemprop="name">May 2017</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="PSO-Algorithm"><a href="#PSO-Algorithm" class="headerlink" title="PSO Algorithm"></a>PSO Algorithm</h1><h2 id="Quote"><a href="#Quote" class="headerlink" title="Quote"></a>Quote</h2><p>  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, inspired by the rules of birds cluster and then build a simplified model by using swarm intelligence. And now, PSO algorithm is based on the observation of animal cluster activity, making use of the information sharing among the individuals in the group which makes the motion of the whole group evolve from disorder to order in the problem solving space, so that you can get the<br>optimum solution.</p>
-<hr>
-<h2 id="Algorithm-Inrtoduction"><a href="#Algorithm-Inrtoduction" class="headerlink" title="Algorithm Inrtoduction"></a>Algorithm Inrtoduction</h2><ul>
-<li><p>As mentioned earlier, PSO simulated predation behavior of birds. Imagine a scenario: a flock of birds in the random search of food. There is only one piece of food in this area. All the birds don’t know where the food is. But they know how far away the food is. So what is the best strategy to find food?. The simplest and most effective way is to search the area around the nearest bird.</p>
-<p> PSO is used to solve the optimization problem. In PSO, the solution of each optimization problem is a bird in the search space. We call it a particle. All particles have an adaptive value determined by the optimized function, and each particle has a velocity that determines the direction and distance of their flight. Then the particles follow the optimal particle in the solution space.</p>
-<p> PSO is initialized to a group of random particles. And then find the optimal solution by iteration. In each iteration, the particle updates itself by tracking two “extremes”. The first one is the optimal solution of the particle itself, which is called the pBest. The other extreme is the optimal solution which is found in the whole population. The extreme value is the global extreme value gBest. In addition, it is possible to use only a part of the neighborhood as a particle without the whole population.</p>
-</li>
-<li><p>When finding these two optimal values, the particle updates its speed and new position according to the following formula:</p>
-</li>
-<li><span>$V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$</span><!-- Has MathJax --></li>
-<li><span>$present=present+V$</span><!-- Has MathJax -->
-</li>
-</ul>
-<p>In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one.</p>
-<h2 id="Parameter-Setting"><a href="#Parameter-Setting" class="headerlink" title="Parameter Setting"></a>Parameter Setting</h2><ul>
-<li>The number of particle generally take 20 to 40. In fact, 10 particles can get good results.</li>
-<li>Particle length: This is determined by the optimization problem, is the length of the problem solution.</li>
-<li>The scope of the particle: by the optimization problem, each dimension can be set different range.</li>
-<li>The learning factors usually take 2, also depending on the specific situation.</li>
-<li>Break condition: Maximum number of cycles and minimum error requirements.</li>
-</ul>
-<h2 id="Matlab-Code"><a href="#Matlab-Code" class="headerlink" title="Matlab Code"></a>Matlab Code</h2><p>You can get code <a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/PSO" target="_blank" rel="external">here</a>.</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/05/Markdown(III)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1062,11 +899,131 @@ www.qiniu.com/" target="_blank" rel="external">website</a> to store my pictures.
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/27/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Matthew">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Matthew">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/27/hello-world/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-27T21:37:02+08:00">
+                2017-04-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Hello World!<br>Hello my website!</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
 
 
@@ -1113,7 +1070,7 @@ www.qiniu.com/" target="_blank" rel="external">website</a> to store my pictures.
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
