@@ -306,6 +306,173 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/07/Solving PDE by matlab(I)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Matthew">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Matthew">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/07/Solving PDE by matlab(I)/" itemprop="url">
+                  Solving PDE by matlab(I)
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-07T23:14:26+08:00">
+                2017-06-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/June-2017/" itemprop="url" rel="index">
+                    <span itemprop="name">June 2017</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <hr>
+<h2 id="Brief-Introduction"><a href="#Brief-Introduction" class="headerlink" title="Brief Introduction"></a>Brief Introduction</h2><p>As we all know, the partial differential equation(PDE) is very hard to get the analytic solution in some way. But we can get numerical solution by matlab. Thus I will solve the problems such as elliptic PDE ,hyperbolic PDE and so on. I will give the concrete examples as follows.</p>
+<hr>
+<h2 id="Concrete-Steps"><a href="#Concrete-Steps" class="headerlink" title="Concrete Steps"></a>Concrete Steps</h2><p>In matlab, there are two simple methods to solve the PDE. One is  using the pdetool which is suitable for solving two-dimensional equation, and the other is to use pdepe function. So let’s focus on the first method at the beginning. The pdetool is very easy to operate, for it is a GUI which has a friendly interface and simple operation. You just need to obey the following advice.</p>
+<ul>
+<li>Make sure what kind of PDE you want to solve like elliptic PDE or what problems you are faced with including heat conduction equation and others.</li>
+<li>Determine the boundary condition.</li>
+<li>Clear the geometry of the PDE.</li>
+<li>Partition finite element and solve the equation.</li>
+</ul>
+<hr>
+<h2 id="Example-for-Elliptic-PDE"><a href="#Example-for-Elliptic-PDE" class="headerlink" title="Example for Elliptic PDE"></a>Example for Elliptic PDE</h2><p>Problem:<img src="http://operts5oh.bkt.clouddn.com/Elliptic.jpeg" alt=""></p>
+<ul>
+<li>First of all, just input “pdetool” in command window in matlab to open the pde toolbox.</li>
+<li><p>And you should draw a unit circle and click the boundary mode or click the omega Icon. The final result is shown in the figure<img src="http://operts5oh.bkt.clouddn.com/Inkedcircle_LI.jpg" alt=""></p>
+</li>
+<li><p>Select the command of Boundary -&gt; Specify boundray cindition, and choose the Dirichlet condition with the h=1,r=0 set.<img src="http://operts5oh.bkt.clouddn.com/chart1.JPG" alt=""></p>
+</li>
+<li><p>Click the PDE button and then a dialog box which is shown below will pop out.<img src="http://operts5oh.bkt.clouddn.com/chart2.JPG" alt=""></p>
+</li>
+<li><p>Partition finite element.click the triangle button and the double-triangle button.<img src="http://operts5oh.bkt.clouddn.com/3.JPG" alt=""></p>
+</li>
+<li><p>Finally click the “=” button to solve the equation. And the numerical solution for Elliptic PDE will presented in your eyes.<img src="http://operts5oh.bkt.clouddn.com/solution.JPG" alt=""></p>
+</li>
+</ul>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/blob/master/%E7%AE%97%E6%B3%95/PDE/PDE_Elliptic.m" target="_blank" rel="external">here</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/01/June Plan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -874,174 +1041,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/06/PSO Algorithm/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Matthew">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Matthew">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/05/06/PSO Algorithm/" itemprop="url">
-                  PSO  Algorithm
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-06T22:38:09+08:00">
-                2017-05-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/May-2017/" itemprop="url" rel="index">
-                    <span itemprop="name">May 2017</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="PSO-Algorithm"><a href="#PSO-Algorithm" class="headerlink" title="PSO Algorithm"></a>PSO Algorithm</h1><h2 id="Quote"><a href="#Quote" class="headerlink" title="Quote"></a>Quote</h2><p>  The PSO algorithm is an evolutionary computation, which is propsoed by Dr.Eberhart and Dr.Kennedy. This algorithm is originally based on the study of bird predation behaviour, inspired by the rules of birds cluster and then build a simplified model by using swarm intelligence. And now, PSO algorithm is based on the observation of animal cluster activity, making use of the information sharing among the individuals in the group which makes the motion of the whole group evolve from disorder to order in the problem solving space, so that you can get the<br>optimum solution.</p>
-<hr>
-<h2 id="Algorithm-Inrtoduction"><a href="#Algorithm-Inrtoduction" class="headerlink" title="Algorithm Inrtoduction"></a>Algorithm Inrtoduction</h2><ul>
-<li><p>As mentioned earlier, PSO simulated predation behavior of birds. Imagine a scenario: a flock of birds in the random search of food. There is only one piece of food in this area. All the birds don’t know where the food is. But they know how far away the food is. So what is the best strategy to find food?. The simplest and most effective way is to search the area around the nearest bird.</p>
-<p> PSO is used to solve the optimization problem. In PSO, the solution of each optimization problem is a bird in the search space. We call it a particle. All particles have an adaptive value determined by the optimized function, and each particle has a velocity that determines the direction and distance of their flight. Then the particles follow the optimal particle in the solution space.</p>
-<p> PSO is initialized to a group of random particles. And then find the optimal solution by iteration. In each iteration, the particle updates itself by tracking two “extremes”. The first one is the optimal solution of the particle itself, which is called the pBest. The other extreme is the optimal solution which is found in the whole population. The extreme value is the global extreme value gBest. In addition, it is possible to use only a part of the neighborhood as a particle without the whole population.</p>
-</li>
-<li><p>When finding these two optimal values, the particle updates its speed and new position according to the following formula:</p>
-</li>
-<li><span>$V=\omega *V+C1*rand()*(pbest-present) +C2*rand()*(gbest-present)$</span><!-- Has MathJax --></li>
-<li><span>$present=present+V$</span><!-- Has MathJax -->
-</li>
-</ul>
-<p>In the formulas above, V is the particle velocity. C1 and C2 are learning factors. \omega is a weighting factor. The rand() is random number between zero and one.</p>
-<h2 id="Parameter-Setting"><a href="#Parameter-Setting" class="headerlink" title="Parameter Setting"></a>Parameter Setting</h2><ul>
-<li>The number of particle generally take 20 to 40. In fact, 10 particles can get good results.</li>
-<li>Particle length: This is determined by the optimization problem, is the length of the problem solution.</li>
-<li>The scope of the particle: by the optimization problem, each dimension can be set different range.</li>
-<li>The learning factors usually take 2, also depending on the specific situation.</li>
-<li>Break condition: Maximum number of cycles and minimum error requirements.</li>
-</ul>
-<h2 id="Matlab-Code"><a href="#Matlab-Code" class="headerlink" title="Matlab Code"></a>Matlab Code</h2><p>You can get code <a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95/PSO" target="_blank" rel="external">here</a>.</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1088,7 +1092,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
