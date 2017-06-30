@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-11T02:49:50.000Z</updated>
+  <updated>2017-06-30T06:00:03.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[June Summary]]></title>
+    <link href="http://yoursite.com/2017/06/30/June%20Summary/"/>
+    <id>http://yoursite.com/2017/06/30/June Summary/</id>
+    <published>2017-06-30T06:00:03.000Z</published>
+    <updated>2017-06-30T06:00:03.000Z</updated>
+    <content type="html"><![CDATA[At the beginning of the June, I set some goals for myself. In fact, I have done these indeed. I have carefully prepared my final exams, though the grade maybe not too great. What’s more, I have learned the R programming language during the review of exams. Unfortunately, I was so lazy that I almost did nothing about machine learning or data structure. Please do not be lazy and degenerate!]]></content>
+    <summary type="html">
+    <![CDATA[At the beginning of the June, I set some goals for myself. In fact, I have done these indeed. I have carefully prepared my final exams, t]]>
+    </summary>
+    
+      <category term="Personal essay" scheme="http://yoursite.com/tags/Personal-essay/"/>
+    
+      <category term="June 2017" scheme="http://yoursite.com/categories/June-2017/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Solving PDE by matlab(I)]]></title>
