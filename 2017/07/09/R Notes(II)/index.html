@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Matthew" />
+  <meta name="keywords" content="R," />
 
 
 
@@ -92,17 +92,23 @@
 
 
 
-<meta name="description" content="Hello World!Hello my website!">
-<meta name="keywords">
+<meta name="description" content="The Data types of RVectorA vector is a one-dimensional array for storing numeric, character, or logical data. The function C () can be used to create vector. Various vectors are shown below:     Notes">
+<meta name="keywords" content="R">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/04/27/hello-world/index.html">
+<meta property="og:title" content="R Notes(II)">
+<meta property="og:url" content="http://yoursite.com/2017/07/09/R Notes(II)/index.html">
 <meta property="og:site_name" content="Matthew">
-<meta property="og:description" content="Hello World!Hello my website!">
-<meta property="og:updated_time" content="2017-05-05T17:09:53.000Z">
+<meta property="og:description" content="The Data types of RVectorA vector is a one-dimensional array for storing numeric, character, or logical data. The function C () can be used to create vector. Various vectors are shown below:     Notes">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rvector.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/RMATRIX.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rarray.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rdataframe1.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rlist.png">
+<meta property="og:updated_time" content="2017-07-16T14:29:53.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Hello World!Hello my website!">
+<meta name="twitter:title" content="R Notes(II)">
+<meta name="twitter:description" content="The Data types of RVectorA vector is a one-dimensional array for storing numeric, character, or logical data. The function C () can be used to create vector. Various vectors are shown below:     Notes">
+<meta name="twitter:image" content="http://operts5oh.bkt.clouddn.com/Rvector.png">
 
 
 
@@ -130,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/04/27/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/07/09/R Notes(II)/"/>
 
 
 
 
 
-  <title>Hello World | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>R Notes(II) | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -309,7 +315,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/27/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/09/R Notes(II)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Matthew">
@@ -330,7 +336,7 @@
             
             
               
-                Hello World
+                R Notes(II)
               
             
           </h1>
@@ -345,8 +351,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-27T21:37:02+08:00">
-                2017-04-27
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-09T22:22:24+08:00">
+                2017-07-09
               </time>
             
 
@@ -380,7 +386,19 @@
       
 
       
-        <p>Hello World!<br>Hello my website!</p>
+        <h2 id="The-Data-types-of-R"><a href="#The-Data-types-of-R" class="headerlink" title="The Data types of R"></a>The Data types of R</h2><h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><p>A vector is a one-dimensional array for storing numeric, character, or logical data. The function C () can be used to create vector. Various vectors are shown below: </p>
+<p> <img src="http://operts5oh.bkt.clouddn.com/Rvector.png" alt=""></p>
+<p> Notes: Although the symbols “=” and “&lt;-“ seem to have same affect, the R programmar would like to use the latter. By the way the symbol “=” will be invalid in some special condition.</p>
+<hr>
+<h3 id="Matrix"><a href="#Matrix" class="headerlink" title="Matrix"></a>Matrix</h3><p>A matrix is a two-dimensional array, except that each element has the same pattern (numeric, character, or logical).You can  create matrix by function matrix. The general use of matrices is:</p>
+<p><img src="http://operts5oh.bkt.clouddn.com/RMATRIX.png" alt=""></p>
+<hr>
+<h3 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h3><p>The array is similiar to the matrix, but the dimenson could be greater than two. The general use of arrays is shown below:<br><img src="http://operts5oh.bkt.clouddn.com/Rarray.png" alt=""></p>
+<hr>
+<h3 id="Data-Frame"><a href="#Data-Frame" class="headerlink" title="Data Frame"></a>Data Frame</h3><p>Different columns can contain data of different patterns(numeric, character,etc), the concept of the data frame is more general than the matrix. It is similar to the data set you usually see in SAS, SPSS and Stata. The data frame will be the most frequently processed data structure in R. The general use of data frame is shown below:<br><img src="http://operts5oh.bkt.clouddn.com/Rdataframe1.png" alt=""></p>
+<hr>
+<h3 id="List"><a href="#List" class="headerlink" title="List"></a>List</h3><p>The list is one of the most complex data types in R. Generally speaking, a list is an ordered set of objects. The list allows you to integrate several objects into a single object. For example, a list might be a combination of several vectors, matrices, data frames and etc. You can use the function list() to create a list:<br><img src="http://operts5oh.bkt.clouddn.com/Rlist.png" alt=""></p>
+<hr>
 
       
     </div>
@@ -413,6 +431,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/R/" rel="tag"># R</a>
+          
+        </div>
+      
 
       
         
@@ -422,15 +446,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/27/Preface/" rel="next" title="Preface">
-                <i class="fa fa-chevron-left"></i> Preface
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/08/R Notes(I)/" rel="prev" title="R Notes(I)">
+                R Notes(I) <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -483,8 +507,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg"
@@ -578,6 +611,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Data-types-of-R"><span class="nav-number">1.</span> <span class="nav-text">The Data types of R</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Vector"><span class="nav-number">1.1.</span> <span class="nav-text">Vector</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Matrix"><span class="nav-number">1.2.</span> <span class="nav-text">Matrix</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Array"><span class="nav-number">1.3.</span> <span class="nav-text">Array</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Data-Frame"><span class="nav-number">1.4.</span> <span class="nav-text">Data Frame</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List"><span class="nav-number">1.5.</span> <span class="nav-text">List</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
