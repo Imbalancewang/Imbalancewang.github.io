@@ -306,6 +306,148 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/19/R Notes(III)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Matthew">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Matthew">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/07/19/R Notes(III)/" itemprop="url">
+                  R Notes(III)
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-19T14:00:16+08:00">
+                2017-07-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Basic-skills-of-plot"><a href="#Basic-skills-of-plot" class="headerlink" title="Basic skills of plot"></a>Basic skills of plot</h2><p>In this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot.</p>
+<p><img src="http://operts5oh.bkt.clouddn.com/Rfigure1.png" alt=""></p>
+<p>You can see the concreate code <a href="https://github.com/Imbalancewang/R/blob/master/%E7%94%BB%E7%94%BB/figure1.R" target="_blank" rel="external">here</a>.<br>I will give you a brief introduction of the function plot.</p>
+<hr>
+<h3 id="plot"><a href="#plot" class="headerlink" title="plot"></a>plot</h3><p>You can use function plot to get the first and the last figures above, which you just need to modify parameters to get.</p>
+<ul>
+<li>Usage: plot(x,y,…)</li>
+<li>Arguements: x,y are the datas you need to input.<br>“…” means the other parameters you need to modify.<br>For some examples, “main=title” means an overall title for the plot. “sub” means a subtitle for the plot. xlab means a title for x axis. You can see more parameters with the word help(“plot”) in R.</li>
+</ul>
+<p>So let’s see a concreate example.<br><img src="http://operts5oh.bkt.clouddn.com/Rplot2.jpeg" alt=""><br><code>attach(mtcars)</code></p>
+<p><code>opar&lt;-par(no.readonly=TRUE)</code></p>
+<p><code>par(lty=2,pch=2)</code></p>
+<p><code>plot(head(wt),head(mpg),type=&quot;b&quot;,main=&quot;wt-mpg&quot;)</code></p>
+<p><code>par(opar)</code></p>
+<p><code>detach(mtcars)</code></p>
+<p> I put the codes in the pages below the figure, and I will explain the codes lines and lines. The first and last lines mean  attach the data “mtcars” and detach the data. The second line is to generate a list of current graphical parameters that can be modified, which means you must use it. And the third line, of course, is to modify the parameters. Lty is the abbreviation of the type of line. Lty=2 means the dotted line. Pch=17 is the point character, which means the solid triangle. The following pictures show the usage of parameters.</p>
+<p> <img src="http://operts5oh.bkt.clouddn.com/parpch.png" alt="pch"><br> <img src="http://operts5oh.bkt.clouddn.com/parlty.png" alt="lty"></p>
+<p> Of course, the parameters is more than just pch and lty, such as lwd, cex and so on. The lwd means the width of line and the cex means the size of symbol. You can refer to the help docement for more specific information.<br> <img src="http://operts5oh.bkt.clouddn.com/figure3.jpeg" alt=""><br> what’s more, the R also can modify the axis by yourself. You can clearly see the figure above and the code is <a href="https://github.com/Imbalancewang/R/blob/master/%E7%94%BB%E7%94%BB/figure3.R" target="_blank" rel="external">here</a>. By the code, we can know the line <code>axis(4,at=x,labels = x,col.axis=&quot;blue&quot;,las=2,cex.axis=0.7,)</code> that controls the output of axis. The parameter in the code is shown below.</p>
+<ul>
+<li>4 stands for the position. 1 is the bottle. 2 is the left side. 3 is the up side. 4 is the right side.</li>
+<li>at means the scale of the axis.</li>
+<li>las=2 means the word is perpendicular to the axis and las=0 means the word is parallel to the axis.<br>If you want to know more about the parameter of the axis, you can refer to the document of help.</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/09/R Notes(II)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -869,178 +1011,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/07/Solving PDE by matlab(I)/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Matthew">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://operts5oh.bkt.clouddn.com/7fb990c679bef4b45b324f1b5f9cf0bd.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Matthew">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/07/Solving PDE by matlab(I)/" itemprop="url">
-                  Solving PDE by matlab(I)
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-07T23:14:26+08:00">
-                2017-06-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/June-2017/" itemprop="url" rel="index">
-                    <span itemprop="name">June 2017</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <hr>
-<h2 id="Brief-Introduction"><a href="#Brief-Introduction" class="headerlink" title="Brief Introduction"></a>Brief Introduction</h2><p>As we all know, the partial differential equation(PDE) is very hard to get the analytic solution in some way. But we can get numerical solution by matlab. Thus I will solve the problems such as elliptic PDE ,hyperbolic PDE and so on. I will give the concrete examples as follows.</p>
-<hr>
-<h2 id="Concrete-Steps"><a href="#Concrete-Steps" class="headerlink" title="Concrete Steps"></a>Concrete Steps</h2><p>In matlab, there are two simple methods to solve the PDE. One is  using the pdetool which is suitable for solving two-dimensional equation, and the other is to use pdepe function. So let’s focus on the first method at the beginning. The pdetool is very easy to operate, for it is a GUI which has a friendly interface and simple operation. You just need to obey the following advice.</p>
-<ul>
-<li>Make sure what kind of PDE you want to solve like elliptic PDE or what problems you are faced with including heat conduction equation and others.</li>
-<li>Determine the boundary condition.</li>
-<li>Clear the geometry of the PDE.</li>
-<li>Partition finite element and solve the equation.</li>
-</ul>
-<hr>
-<h2 id="Example-for-Elliptic-PDE"><a href="#Example-for-Elliptic-PDE" class="headerlink" title="Example for Elliptic PDE"></a>Example for Elliptic PDE</h2><p>Problem:<img src="http://operts5oh.bkt.clouddn.com/Elliptic.jpeg" alt=""></p>
-<ul>
-<li>First of all, just input “pdetool” in command window in matlab to open the pde toolbox.</li>
-<li><p>And you should draw a unit circle and click the boundary mode or click the omega Icon. The final result is shown in the figure<img src="http://operts5oh.bkt.clouddn.com/Inkedcircle_LI.jpg" alt=""></p>
-</li>
-<li><p>Select the command of Boundary -&gt; Specify boundray cindition, and choose the Dirichlet condition with the h=1,r=0 set.<img src="http://operts5oh.bkt.clouddn.com/chart1.JPG" alt=""></p>
-</li>
-<li><p>Click the PDE button and then a dialog box which is shown below will pop out.<img src="http://operts5oh.bkt.clouddn.com/chart2.JPG" alt=""></p>
-</li>
-<li><p>Partition finite element.click the triangle button and the double-triangle button.<img src="http://operts5oh.bkt.clouddn.com/3.JPG" alt=""></p>
-</li>
-<li><p>Finally click the “=” button to solve the equation. And the numerical solution for Elliptic PDE will presented in your eyes.<img src="http://operts5oh.bkt.clouddn.com/solution.JPG" alt=""></p>
-</li>
-</ul>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/blob/master/%E7%AE%97%E6%B3%95/PDE/PDE_Elliptic.m" target="_blank" rel="external">here</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1087,7 +1062,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>

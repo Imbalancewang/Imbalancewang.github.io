@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Matlab,Machine Learning," />
+  <meta name="keywords" content="R," />
 
 
 
@@ -92,17 +92,23 @@
 
 
 
-<meta name="description" content="Gradient Descent Method(I)Basic InformationThe gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest metho">
-<meta name="keywords" content="Matlab,Machine Learning">
+<meta name="description" content="Basic skills of plotIn this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot.  You can see the concreate">
+<meta name="keywords" content="R">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Gradient Descent Method(I)">
-<meta property="og:url" content="http://yoursite.com/2017/05/13/Gradient Descent Method(I)/index.html">
+<meta property="og:title" content="R Notes(III)">
+<meta property="og:url" content="http://yoursite.com/2017/07/19/R Notes(III)/index.html">
 <meta property="og:site_name" content="Matthew">
-<meta property="og:description" content="Gradient Descent Method(I)Basic InformationThe gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest metho">
-<meta property="og:updated_time" content="2017-05-18T07:38:30.000Z">
+<meta property="og:description" content="Basic skills of plotIn this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot.  You can see the concreate">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rfigure1.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/Rplot2.jpeg">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/parpch.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/parlty.png">
+<meta property="og:image" content="http://operts5oh.bkt.clouddn.com/figure3.jpeg">
+<meta property="og:updated_time" content="2017-07-22T12:28:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Gradient Descent Method(I)">
-<meta name="twitter:description" content="Gradient Descent Method(I)Basic InformationThe gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest metho">
+<meta name="twitter:title" content="R Notes(III)">
+<meta name="twitter:description" content="Basic skills of plotIn this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot.  You can see the concreate">
+<meta name="twitter:image" content="http://operts5oh.bkt.clouddn.com/Rfigure1.png">
 
 
 
@@ -130,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/05/13/Gradient Descent Method(I)/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/07/19/R Notes(III)/"/>
 
 
 
 
 
-  <title>Gradient Descent Method(I) | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>R Notes(III) | Matthew</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -309,7 +315,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/13/Gradient Descent Method(I)/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/19/R Notes(III)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Matthew">
@@ -330,7 +336,7 @@
             
             
               
-                Gradient Descent Method(I)
+                R Notes(III)
               
             
           </h1>
@@ -345,8 +351,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-13T23:04:32+08:00">
-                2017-05-13
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-19T14:00:16+08:00">
+                2017-07-19
               </time>
             
 
@@ -380,9 +386,29 @@
       
 
       
-        <h1 id="Gradient-Descent-Method-I"><a href="#Gradient-Descent-Method-I" class="headerlink" title="Gradient Descent Method(I)"></a>Gradient Descent Method(I)</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>The gradient descent method is an optimization algorithm, also known as steepest descent. The steepest descent method is one of the simplest and oldest methods for solving unconstrained optimization problems.</p>
-<h2 id="Solving-Process"><a href="#Solving-Process" class="headerlink" title="Solving Process"></a>Solving Process</h2><p>The calculation of the gradient descent method is to solve the minimum value in the direction of the gradient descent (and also to solve the maximum value along the ascending direction of the gradient).<br><span>$a_(k+1)=a_k+\rho_k*s_. s_k$</span><!-- Has MathJax -->represents the gradient negative direction, while the \rho_k stands for the search step in the gradient direction.Gradient direction, we can get the derivative of the function, the step size is more difficult to determine, too big, it may be divergent, too small, convergence is too slow.The general method of determining the step size is determined by the linear search algorithm, which treats the coordinates of the next point as a function of a_k, and then satisfies the minimum of F(a_k+1).<br>Because under normal circumstances, the gradient vector is 0 words that is to an extreme point, the gradient amplitude is 0 and the gradient descent algorithm for optimization, the termination condition is the amplitude of the gradient vector iteration algorithm is close to 0, you can set a constant threshold is very small.</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p><a href="https://github.com/Imbalancewang/MATLAB/tree/master/%E7%AE%97%E6%B3%95" target="_blank" rel="external">here</a></p>
+        <h2 id="Basic-skills-of-plot"><a href="#Basic-skills-of-plot" class="headerlink" title="Basic skills of plot"></a>Basic skills of plot</h2><p>In this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot.</p>
+<p><img src="http://operts5oh.bkt.clouddn.com/Rfigure1.png" alt=""></p>
+<p>You can see the concreate code <a href="https://github.com/Imbalancewang/R/blob/master/%E7%94%BB%E7%94%BB/figure1.R" target="_blank" rel="external">here</a>.<br>I will give you a brief introduction of the function plot.</p>
+<hr>
+<h3 id="plot"><a href="#plot" class="headerlink" title="plot"></a>plot</h3><p>You can use function plot to get the first and the last figures above, which you just need to modify parameters to get.</p>
+<ul>
+<li>Usage: plot(x,y,…)</li>
+<li>Arguements: x,y are the datas you need to input.<br>“…” means the other parameters you need to modify.<br>For some examples, “main=title” means an overall title for the plot. “sub” means a subtitle for the plot. xlab means a title for x axis. You can see more parameters with the word help(“plot”) in R.</li>
+</ul>
+<p>So let’s see a concreate example.<br><img src="http://operts5oh.bkt.clouddn.com/Rplot2.jpeg" alt=""><br><code>attach(mtcars)</code></p>
+<p><code>opar&lt;-par(no.readonly=TRUE)</code></p>
+<p><code>par(lty=2,pch=2)</code></p>
+<p><code>plot(head(wt),head(mpg),type=&quot;b&quot;,main=&quot;wt-mpg&quot;)</code></p>
+<p><code>par(opar)</code></p>
+<p><code>detach(mtcars)</code></p>
+<p> I put the codes in the pages below the figure, and I will explain the codes lines and lines. The first and last lines mean  attach the data “mtcars” and detach the data. The second line is to generate a list of current graphical parameters that can be modified, which means you must use it. And the third line, of course, is to modify the parameters. Lty is the abbreviation of the type of line. Lty=2 means the dotted line. Pch=17 is the point character, which means the solid triangle. The following pictures show the usage of parameters.</p>
+<p> <img src="http://operts5oh.bkt.clouddn.com/parpch.png" alt="pch"><br> <img src="http://operts5oh.bkt.clouddn.com/parlty.png" alt="lty"></p>
+<p> Of course, the parameters is more than just pch and lty, such as lwd, cex and so on. The lwd means the width of line and the cex means the size of symbol. You can refer to the help docement for more specific information.<br> <img src="http://operts5oh.bkt.clouddn.com/figure3.jpeg" alt=""><br> what’s more, the R also can modify the axis by yourself. You can clearly see the figure above and the code is <a href="https://github.com/Imbalancewang/R/blob/master/%E7%94%BB%E7%94%BB/figure3.R" target="_blank" rel="external">here</a>. By the code, we can know the line <code>axis(4,at=x,labels = x,col.axis=&quot;blue&quot;,las=2,cex.axis=0.7,)</code> that controls the output of axis. The parameter in the code is shown below.</p>
+<ul>
+<li>4 stands for the position. 1 is the bottle. 2 is the left side. 3 is the up side. 4 is the right side.</li>
+<li>at means the scale of the axis.</li>
+<li>las=2 means the word is perpendicular to the axis and las=0 means the word is parallel to the axis.<br>If you want to know more about the parameter of the axis, you can refer to the document of help.</li>
+</ul>
 
       
     </div>
@@ -417,9 +443,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Matlab/" rel="tag"># Matlab</a>
-          
-            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
+            <a href="/tags/R/" rel="tag"># R</a>
           
         </div>
       
@@ -432,18 +456,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/05/18/Be slower or be faster/" rel="next" title="Be slower or be faster">
-                <i class="fa fa-chevron-left"></i> Be slower or be faster
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/05/09/Kmeans Algorithm/" rel="prev" title="Kmeans">
-                Kmeans <i class="fa fa-chevron-right"></i>
+              <a href="/2017/07/09/R Notes(II)/" rel="prev" title="R Notes(II)">
+                R Notes(II) <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -611,7 +631,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Gradient-Descent-Method-I"><span class="nav-number">1.</span> <span class="nav-text">Gradient Descent Method(I)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Information"><span class="nav-number">1.1.</span> <span class="nav-text">Basic Information</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Solving-Process"><span class="nav-number">1.2.</span> <span class="nav-text">Solving Process</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Code"><span class="nav-number">1.3.</span> <span class="nav-text">Code</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-skills-of-plot"><span class="nav-number">1.</span> <span class="nav-text">Basic skills of plot</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#plot"><span class="nav-number">1.1.</span> <span class="nav-text">plot</span></a></li></ol></li></ol></div>
             
 
           </div>
