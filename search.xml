@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[R Notes(III)]]></title>
+    <title><![CDATA[R Notes(I)]]></title>
     <url>%2F2017%2F07%2F19%2FR%20Notes(III)%2F</url>
     <content type="text"><![CDATA[Basic skills of plotIn this artical, I will use the data “mtcars” in the R language itself to draw many kinds of pictures. So let’s have a preliminary understand of R plot. You can see the concreate code here.I will give you a brief introduction of the function plot. plotYou can use function plot to get the first and the last figures above, which you just need to modify parameters to get. Usage: plot(x,y,…) Arguements: x,y are the datas you need to input.“…” means the other parameters you need to modify.For some examples, “main=title” means an overall title for the plot. “sub” means a subtitle for the plot. xlab means a title for x axis. You can see more parameters with the word help(“plot”) in R. So let’s see a concreate example.attach(mtcars) opar&lt;-par(no.readonly=TRUE) par(lty=2,pch=2) plot(head(wt),head(mpg),type=&quot;b&quot;,main=&quot;wt-mpg&quot;) par(opar) detach(mtcars) I put the codes in the pages below the figure, and I will explain the codes lines and lines. The first and last lines mean attach the data “mtcars” and detach the data. The second line is to generate a list of current graphical parameters that can be modified, which means you must use it. And the third line, of course, is to modify the parameters. Lty is the abbreviation of the type of line. Lty=2 means the dotted line. Pch=17 is the point character, which means the solid triangle. The following pictures show the usage of parameters. Of course, the parameters is more than just pch and lty, such as lwd, cex and so on. The lwd means the width of line and the cex means the size of symbol. You can refer to the help docement for more specific information. what’s more, the R also can modify the axis by yourself. You can clearly see the figure above and the code is here. By the code, we can know the line axis(4,at=x,labels = x,col.axis=&quot;blue&quot;,las=2,cex.axis=0.7,) that controls the output of axis. The parameter in the code is shown below. 4 stands for the position. 1 is the bottle. 2 is the left side. 3 is the up side. 4 is the right side. at means the scale of the axis. las=2 means the word is perpendicular to the axis and las=0 means the word is parallel to the axis.If you want to know more about the parameter of the axis, you can refer to the document of help.]]></content>
+      <categories>
+        <category>July 2017</category>
+      </categories>
       <tags>
         <tag>R</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[R Notes(II)]]></title>
+    <title><![CDATA[R Notes(I)]]></title>
     <url>%2F2017%2F07%2F09%2FR%20Notes(II)%2F</url>
     <content type="text"><![CDATA[The Data types of RVectorA vector is a one-dimensional array for storing numeric, character, or logical data. The function C () can be used to create vector. Various vectors are shown below: Notes: Although the symbols “=” and “&lt;-“ seem to have same affect, the R programmar would like to use the latter. By the way the symbol “=” will be invalid in some special condition. MatrixA matrix is a two-dimensional array, except that each element has the same pattern (numeric, character, or logical).You can create matrix by function matrix. The general use of matrices is: ArrayThe array is similiar to the matrix, but the dimenson could be greater than two. The general use of arrays is shown below: Data FrameDifferent columns can contain data of different patterns(numeric, character,etc), the concept of the data frame is more general than the matrix. It is similar to the data set you usually see in SAS, SPSS and Stata. The data frame will be the most frequently processed data structure in R. The general use of data frame is shown below: ListThe list is one of the most complex data types in R. Generally speaking, a list is an ordered set of objects. The list allows you to integrate several objects into a single object. For example, a list might be a combination of several vectors, matrices, data frames and etc. You can use the function list() to create a list:]]></content>
+      <categories>
+        <category>July 2017</category>
+      </categories>
       <tags>
         <tag>R</tag>
       </tags>
