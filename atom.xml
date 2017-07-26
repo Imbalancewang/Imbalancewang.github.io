@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-23T14:47:01.000Z</updated>
+  <updated>2017-07-25T09:37:10.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[R Notes(IV)]]></title>
+    <link href="http://yoursite.com/2017/07/24/R%20Notes(IV)/"/>
+    <id>http://yoursite.com/2017/07/24/R Notes(IV)/</id>
+    <published>2017-07-24T01:47:55.000Z</published>
+    <updated>2017-07-25T09:37:10.000Z</updated>
+    <content type="html"><![CDATA[In the last artical, I introduce the usage of function plot. And in this artical, I will continue to show the usage of other drawing function. BarplotIn this part, I choose to use the data called “Arthritis”. You can load the bag of vcd to get the data. First of all, let’s see the simple barlpot to learn the effect of the function. You can get the code here.From the code, we can clearly see the simple usage of function barplot. As for the more complex usage, I will show you below. It is not very hard to work out such a figure. You just need to remember setting parameters well. The set of parameter is a little bit hard. You can refer to the help document. And the code of plotting the figure is here SpineMaybe you have not heard about the spine. It is a special barplot and its effect is very good. The usage of spine is similiar to the barplot. The code is here. PiePie chart is well-known and common aroud us. And I will introduce this kind of figure. There are four kinds of pie chart above, each of them has their special features or to say the differences of setting parameters. The code of these figures are here. What’s more, I want to show an another kind of pie chart for you.This kind of pie chart is called the fan chart because of its shape. And its usage is similiar to the pie chart.]]></content>
+    <summary type="html">
+    <![CDATA[In the last artical, I introduce the usage of function plot. And in this artical, I will continue to show the usage of other drawing func]]>
+    </summary>
+    
+      <category term="R" scheme="http://yoursite.com/tags/R/"/>
+    
+      <category term="July 2017" scheme="http://yoursite.com/categories/July-2017/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[R Notes(III)]]></title>
