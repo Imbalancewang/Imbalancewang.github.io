@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-25T09:37:10.000Z</updated>
+  <updated>2017-07-27T06:33:15.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[R Notes(V)]]></title>
+    <link href="http://yoursite.com/2017/07/27/R%20notes(V)/"/>
+    <id>http://yoursite.com/2017/07/27/R notes(V)/</id>
+    <published>2017-07-27T02:46:27.000Z</published>
+    <updated>2017-07-27T06:33:15.000Z</updated>
+    <content type="html"><![CDATA[In the last artical, I have introduced some functions of figures. So in this artical I will introduce more about the skills of drawing. HistIn the first picture, it is the most common types in hte hist function. As for the second picture, it is also very easy to do. You just need to set the parameters of color and the breaks. And last you can gei it. It is obvious that the last two figures are somewhat hard to work out. You can get the concrete code here. Kernel DensityKernel Density figure is a very special kind of pictrue in the mathmatical learning. And now I will show you the concrete usage below. You can see the code here. Of course, the kernel density figure is more than this. You can even draw a comparison chart. The code is here. ##BoxplotThe usage of boxplot is similiar to the other plot functions.You just need to set the right parameters so that you can get very nice figures.here ViolinViolin chart is very useful, though it is not popular now. You can clearly see the distribution of the datas and the extremum. Its usage is easy as the formers. You can see the code here DotchartIn the R language, I think the most useful figure is the dotchart because it is clear and hard to work out by other softwares. You can see the code here.]]></content>
+    <summary type="html">
+    <![CDATA[In the last artical, I have introduced some functions of figures. So in this artical I will introduce more about the skills of drawing.]]>
+    </summary>
+    
+      <category term="R" scheme="http://yoursite.com/tags/R/"/>
+    
+      <category term="July 2017" scheme="http://yoursite.com/categories/July-2017/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[R Notes(IV)]]></title>
